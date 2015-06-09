@@ -1,72 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/skinshot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/skinshot.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slideitmoo_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slideitmoo_forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_body_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_button_hover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_content_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_content_middle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_content_top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_image_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_image_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_image_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_image_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_list.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_menu_divider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_product_08.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_sidebar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_sidebar_header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatemo_slider.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/templatmeo_header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templatemo_style.css" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\avril.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\bg-ramp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\blockquote-gfx-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\blockquote-gfx.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\chevron-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\chevron.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\download-fallback-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\download-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\footer-ramp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\fork-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\hr-2x.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\hr.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img05.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img06.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img07.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img08.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\img10.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\octocat-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\octocat.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\ribbon-tail-sprite-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\ribbon-tail-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\screenshot.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\screenshot.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\shield-fallback.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\shield.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\site-2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\small-ribbon-tail-sprite-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\heran\Documents\GitHub\HomePage\images\small-ribbon-tail-sprite.png" afterPath="" />
+    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="Create gh-pages branch via GitHub">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrow.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bgd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bullet.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/business.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/folder.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/go.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/main_bgd.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modify.iws" />
@@ -95,8 +39,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3021978" vertical-offset="0" max-vertical-offset="4740">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.6043956" vertical-offset="0" max-vertical-offset="1965">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="4815">
+              <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -119,6 +75,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CNAME" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -203,6 +160,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="931" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -211,6 +169,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\heran\Documents\GitHub\HomePage" />
+      <recent name="C:\Users\heran\Documents\GitHub\HomePage\stylesheet" />
+      <recent name="C:\Users\heran\Documents\GitHub\HomePage\images" />
       <recent name="C:\Users\heran\Desktop\Joey\個人首頁製作\modify\HomePage\images" />
     </key>
   </component>
@@ -332,21 +292,27 @@
       <option name="project" value="LOCAL" />
       <updated>1433833521614</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Create gh-pages branch via GitHub">
+      <created>1433834344225</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1433834344225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22995462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,19 +374,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/slideitmoo_forward.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/slideitmoo_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/params.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bgd.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025728988" vertical-offset="0" max-vertical-offset="930">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42538592" vertical-offset="262" max-vertical-offset="2235">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="4815">
+          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/headsmart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3021978" vertical-offset="0" max-vertical-offset="4740">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.6043956" vertical-offset="0" max-vertical-offset="1965">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
