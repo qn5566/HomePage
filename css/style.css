@@ -1,0 +1,193 @@
+@charset "UTF-8";
+/*********************
+ *  Bootstrap Sample
+ *********************/
+/*
+ * 以 md 以上尺寸為基本
+ * sm,xs 尺寸撰寫在本檔案下方
+ */
+/* 為了支援 IE 的 Helvetica 問題，覆寫 font-family */
+body {
+	font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+}
+/******
+ * 頁首標題、導覽列的設定
+ */
+/* 自訂導覽列的設定 放大文字、將標題設為圖像、亦配合縱向寬度的延伸 */
+
+/* 調整標題圖像的縱向位置 */
+#mdn-header h1 {
+	font-size: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#mdn-header .navbar-header h1 {
+	padding-top:18px;
+	padding-bottom:12px;
+	margin-left:15px;
+}
+#mdn-header .navbar-nav > li > a {
+	height: 60px;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+/* 由於放大了文字尺寸，故調整圖示的位置 */
+#mdn-header .glyphicon {
+	top: 2px;
+	margin-right: 4px;
+}
+
+/* 導覽列按鈕的右端與瀏覽器右端緊黏在一起，因此稍微取出一點距離 */
+#mdn-header .navbar-nav.navbar-right:last-child {
+	margin-right: 0px;
+}
+
+/******
+ * 主內容
+ */
+
+/* 使主內容下降固定於上方的導覽列的縱向寬度的量 */
+#mdn-main {
+	margin-top:60px;
+}
+
+/* 背景顏色設定 */
+#mdn-area-top {
+	background:#E9E2D3;
+}
+
+/* APP按鈕 想要比 Bootstrap 準備的尺寸更大，因此在此設定 */
+.mdn-box-applink {
+	margin-top:200px;
+	text-align: center;
+	padding:50px 0 40px;
+}
+.mdn-box-applink .btn {
+	width: 225px;
+	font-size: 22px;
+	padding: 16px 30px 16px 70px;
+	position: relative;
+	font-weight:bold;
+}
+.mdn-box-applink .btn .glyphicon  {
+	position: absolute;
+	top: 41%;
+	margin-left: -45px;
+}
+
+/* iPhone 的模擬圖像 */
+#mdn-box-moc img {
+	margin-top:50px;
+	padding-bottom:50px;
+}
+
+/**
+ * 功能介紹區域
+ */
+#mdn-area-info > div > h1 {
+	margin-top:50px;
+}
+#mdn-area-info > div > .lead {
+	margin-top:30px;
+	color:#101010;
+}
+#mdn-area-info > div > .alert {
+	margin-top:30px;
+}
+#mdn-area-tab {
+	margin-top:50px;
+}
+
+/* 警示內容 */
+#mdn-area-info > div > .alert {
+	position:relative;
+	padding-right:0;
+}
+#mdn-area-info > div > .alert a {
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+#mdn-area-info > div > .alert h1{
+	margin-top:10px;
+}
+
+/* 頁籤內容 */
+#mdn-area-tab .tab-content {
+	margin-top:50px;
+}
+
+/* 費用表格 */
+#mdn-area-info table th {
+	width:50%;
+	background:#FCF8E3;
+}
+
+/**
+ * 連絡表單
+ */
+#mdn-area-contact {
+	margin-top:50px;
+	border-top:3px solid #E9E2D3;
+}
+#mdn-area-contact .row {
+	margin-right:0;
+	margin-left:0;
+}
+#mdn-area-contact > h1 {
+	margin-top:50px;
+
+}
+#mdn-area-contact > h1 + div {
+	margin-top:30px;
+}
+
+/**
+ * 頁尾
+ */
+#mdn-footer {
+	color:#FFF;
+	padding:8px 0;
+	margin-top:50px;
+}
+#mdn-footer .glyphicon {
+	margin-right:5px;
+}
+
+/******
+ * 響應式設計
+ */
+/* md 版面配置 */
+@media (max-width: 1199px) {
+}
+/* sm 版面配置 */
+@media (max-width: 991px) {
+	#mdn-box-moc img {
+		padding-bottom:0;
+	}
+	.mdn-box-applink {
+		margin-top:0;
+		padding-top:0;
+		padding-bottom:80px;;
+	}
+}
+/* xs 版面配置 */
+@media (max-width: 767px) {
+	#mdn-main {
+		margin-top: 50px;
+	}
+	#mdn-header h1 img {
+		height:20px;
+	}
+	#mdn-area-top {
+		padding-top: 50px;
+	}
+	.mdn-box-applink {
+		padding-bottom:50px;
+	}
+	#mdn-area-contact form > div.row {
+		margin-right:15px;
+		margin-left:15px;
+	}
+}
