@@ -3,7 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>一生懸命</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
+    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script type="text/javascript" src="js/001.js"></script>
 </head>
 
 <body>
@@ -15,12 +22,13 @@
 
         <div id="navigation">
             <ul>
-                <li class="selected">
-                    <a href="about.html" title="About Us">首頁</a></li>
-                <li><a href="about.html" title="About Us">關於我</a></li>
-                <li><a href="index.html" title="Services">作品集</a></li>
-                <li><a href="index.html" title="Clients">上架</a></li>
-                <li><a href="index.html" title="Contacts">聯絡我</a></li>
+                <li><a title="About" id="About">About</a></li>
+                <li><a title="Eduction" id="Eduction">Eduction</a></li>
+                <li><a title="Career" id="Career">Career</a></li>
+                <li><a title="Skills" id="Skills">Skills</a></li>
+                <li><a title="Works" id="Works">Works</a></li>
+                <li><a title="Project" id="Project">Project</a></li>
+                <li><a title="Autobiography" id="Autobiography">Autobiography</a></li>
             </ul>
         </div>
         <!--end navigation-->
@@ -37,7 +45,165 @@
         <img id="imagem" src="images/business.jpg" alt="Business"/>
     </div>
 
-    <div id="content">
+    <div id="conten1">
+        <h3>About me</h3>
+        <h4>姓名:徐尉傑 (Ted)</h4>
+        <h4>地址:桃園市中壢區普忠路223號</h4>
+        <h4>Tel: (03) 4334-139</h4>
+        <h4>Mobile: 0955245522</h4>
+        <h4>生日:1987/08/23</h4>
+        <h4>E-mail: pkwelly@hotmail.com</h4>
+    </div>
+    <div id="conten2">
+        <h3>Eduction</h3>
+        <h4 class="image">國立臺灣師範大學 物理海洋環境科學研究所 <p>2012年1月(畢)
+            <a href="http://www.mest.ntnu.edu.tw/news/news.php?class=101">學校網站 &raquo;</a></p></h4>
+    </div>
+    <div id="conten3">
+        <h3>Career</h3>
+        <ul>
+            <li>台灣颱風洪水研究中心</li>
+            <p>2013,Mar to 2014,July</p>
+            <h4>主要研究台灣東邊海域的地底地震所引發的海嘯事件模擬及研究</h4>
+
+            <p><a href="http://www.ttfri.narl.org.tw/index.html">公司網站 &raquo;</a></p>
+
+            <li>禾聯家電</li>
+            <p>2014,Sep to 在職</p>
+            <h4>主要研究開發GoogleTV、智慧手機、平板，後台資料庫架設</h4>
+            <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257">公司網站 &raquo;</a></p>
+
+        </ul>
+    </div>
+    <div id="conten4">
+        <h3>Skills</h3>
+        <div id="frontend">
+            <h3>前台</h3>
+            <ul>
+                <li>Android</li>
+                <li>Object-c</li>
+                <li>HTML/CSS/JavaScript/Jquery/Bootstrap</li>
+            </ul>
+        </div>
+        <div id="backend">
+            <h3>後台</h3>
+            <ul>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <div id="a_little">
+            <h3>還在學習</h3>
+            <ul>
+                <li>C/C++</li>
+                <li>JSP</li>
+            </ul>
+        </div>
+    </div>
+    <div id="conten5">
+        <h3>My Work</h3>
+        <ul>
+            <h3>HERAN Smart TV</h3>
+            <li>修改及維護GoogleTV</li>
+            <li>與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵拉專區、數位學習王專區)</li>
+            <li>開發手機、平板與電視互動的廣告機功能(已在上海、全台各地康是美、小三美日、屈臣氏，上架)</li>
+            <li>物聯網開發(IoT)，整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合</li>
+
+        </ul>
+    </div>
+    <div>
+        <ul class="stage">
+            <li class="scene">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>媽媽百寶箱</h1>
+                            <span class="year">2015-9</span>
+                            <span class="rating">iOS&Android</span>
+                            <span class="duration"><br>
+                                <a href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8">iOS Store &raquo;</a><br>
+                                <a href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod>Google Play &raquo;</a>
+                            </span>
+                        </header>
+                        <p>台灣萬人使用率最高的媽媽寶寶BLOG合作<br>
+                            書籍app的商業購買系統，主要團隊有網頁、後台PHP、前台IOS、Android，
+                            主要負責撰寫Android，此APP的特色串接後台(JSON)
+                            會員系統、Google的內購系統(In-app billing)、Vungle的影音
+                            廣告SDK導入、Google廣告(Admob)、FB SDK串接會員系統、WebView的JavaScript互動設定、等。</p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>日達汽車</h1>
+                            <span class="year">2015-5</span>
+                            <span class="rating">Android</span>
+                            <span class="duration"></span><br>
+                            <a href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar>Google Play &raquo;</a>
+                        </header>
+                        <p>客戶邀約案件內容:<br>
+                            日達汽車修車廠的客製化APP，主要是配合GoogleMap導航系統、及GCM(聊天系統)。
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="scene">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>懸浮圖片</h1>
+                            <span class="year">2015-7</span>
+                            <span class="rating">Android</span>
+                            <span class="duration"></span><br>
+                            <a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>
+                        </header>
+                        <p>客戶邀約案件內容:<br>
+                            可以顯示喜歡的圖片在桌面上，以及內購程式(Google)。
+                        </p>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <!--<div id="conten6">-->
+        <!--<h3>Project</h3>-->
+        <!--<ul>-->
+            <!--<li>1.媽媽百寶箱(MomBaby) on AppStore and GooglePaly</li>-->
+            <!--<h4><a href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8">iOS Store &raquo;</a>-->
+            <!--</h4>-->
+            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod>Google Play &raquo;</a>-->
+            <!--</h4>-->
+            <!--<h4>假日接的外包案，一個類似書籍app的商業購買系統，主要團隊有網頁、後台PHP、-->
+                <!--前台IOS、Android，我是負責撰寫Android，iOS與朋友一起寫(swift)，-->
+                <!--此APP的特色有後台JSON串接會員系統(會員與非會員之顯示差異)、-->
+                <!--Google的內購系統、Vungle的影音廣告SDK導入(點及廣告非會員可免費看5分鐘文章)-->
+                <!--、Google廣告(Admob)、FB SDK串接會員系統、WebView的JavaScript互動設定、等。</h4>-->
+            <!--<li>2.日達汽車(RDCar)on GooglePlay</li>-->
+            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar>Google Play &raquo;</a></h4>-->
+            <!--<h4>日達汽車修車廠的客製化APP，主要是配合GoogleMap導航系統、及GCM(聊天系統)。</h4>-->
+            <!--<li>3.女朋友icon(GirlFriend icon) on GooglePlay</li>-->
+            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a></h4>-->
+            <!--<h4>可以顯示喜歡的圖片在桌面上，以及內購程式(Google)。</h4>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <div id="conten7">
+        <h3>Autobiography</h3>
+        <h4>
+            由於工作的關係也碰到些後台的語言，如：PHP、HTML、Javascript、JSP，自己也在利用空閒時間，
+            學習iOS(Object-c、Swift)。這一路上開發了許多好玩的app，並且交到一些也很喜歡寫程式的朋友們，
+            讓我對程式設計師的領域，增加了許多樂趣。對未來充滿了許多的期待及幻想，要隨時保持學習，對生命充滿熱情。
+        </h4>
+    </div>
+
+
+    <div id="content2">
         <div id="col_left">
             <div id="welcome">
                 <h2>歡迎您</h2>
@@ -140,23 +306,24 @@
 
                 <p><span class="green">Name:</span> Ted Hsu</p>
 
-                <p><span class="green">Phone:</span> +123 456 789</p>
+                <p><span class="green">Phone:</span> 0955245522</p>
 
-                <p><span class="green">Email:</span><a href="index.html"> weare@google.com</a></p>
+                <p><span class="green">Email:</span><a href="index.html">pkwelly@hotmail.com</a></p>
             </div>
         </div>
         <!--end col_right-->
-
     </div>
     <!--end content-->
     <div style="clear:both"></div>
 </div>
 
 <!--end wrapper-->
-<div id="footer"><p>&copy; 2015 <a href="#">WEARE.com</a>. Valid CSS &amp; XHTML. Template design by <a
+<div id="footer"><p>&copy; 2015 <a href="#" id="goTop">WEARE.com</a>. Valid CSS &amp; XHTML. Template design by <a
         href="http://www.chamadigital.com" title="Chama Digital">Chama Digital</a> | Courtesy <a
         href="http://www.openwebdesign.org" target="_blank">Open Web Design</a>, Thanks to <a
         href="http://www.seo.us.com" target="_blank">TED HSU</a></p>
 </div>
 </body>
 </html>
+
+

@@ -1,162 +1,176 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="zh-tw">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>一生懸命</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8">
+    <title>Bootstrap Sample App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
-<div id="wrapper">
-    <div id="header">
-
-        <h1><a href="index.html" title="home">我
-        </a></h1>
-
-        <div id="navigation">
-            <ul>
-                <li class="selected">
-                    <a href="index.html" title="About Us">首頁</a></li>
-                <li><a href="index.html" title="About Us">關於我</a></li>
-                <li><a href="index.html" title="Services">作品集</a></li>
-                <li><a href="index.html" title="Clients">上架</a></li>
-                <li><a href="index.html" title="Contacts">聯絡我</a></li>
-            </ul>
-        </div>
-        <!--end navigation-->
-
-
-        <form action="">
-            <div id="search">
-                <input type="text" value="你想找什麼..."/>
-                <input name="n1" type="image" src="images/go.gif" value="Search" class="btn"/>
-            </div>
-        </form>
-        <h2 id="slogan">耐心服務 <span>仔細傾聽</span> 全力去做!</h2>
-
-        <img id="imagem" src="images/business.jpg" alt="Business"/>
+<header id="mdn-header" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mdn-toggle-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <h1><a href="#"><img src="img/title-logo.png" alt="Bootstrap Sample App"></a></h1>
     </div>
-
-    <div id="content">
-        <div id="col_left">
-            <div id="welcome">
-                <h2>歡迎您</h2>
-
-                <p>
-                    "WE ARE"行銷成立於2015年，秉持成為「企業最佳事業夥伴」的經營理念，發展ALL IN ONE的服務內容。營業項目從網頁設計與
-                    平面設計開始，陸續增加了網路行銷、程式設計及APP設計開發，提供企業一系列整合式的專業服務，解決企業拼湊各種需求但最後
-                    卻還是沒成功的困擾。
-                    謝謝您能選擇我們的團隊，我們工作室秉持著簡單、慎重、自我要求高，很高興有機會能夠會您服務
-
-                </p>
-            </div>
-            <!--end welcome-->
-            <div id="center">
-
-                <div id="about_us">
-                    <h3>放眼未來眾能將朝幾個方向躍進</h3>
-
-                    <p>
-                        繼續精進於技術創新與整合應用能力，提供企業更多元的商業應用解決方案，成為技術整合應用的領導品牌。
-                        發現市場需求，發展自有平台、產品與商業模式。
-                        尋求更多有理想、能力、正直的個人與團隊加入，打造眾能成為「眾心齊聚，無所不能」的公司。
-                        目標在2018年上櫃。
-                    </p>
-
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-
-                <div id="services">
-                    <h3>經營理念</h3>
-                    <ul>
-                        <li>「誠信、守法」是我們的基因。</li>
-                        <li>「創新、研發」是我們的信條。</li>
-                        <li>「海納百川，有容乃大」是我們發展的策略。</li>
-                        <li>「成長>獲利>分享」是對公司夥伴的承諾。</li>
-                        <li>「ALL IN ONE」為服務內容追求目標。</li>
-                    </ul>
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-                <div id="clients">
-                    <h3>服務項目</h3>
-                    <ul>
-                        <li>程式設計-APP設計開發</li>
-                        <li>WEB程式設計</li>
-                        <li>管理系統開發</li>
-                        <li>FB應用程式設計</li>
-                        <li>整合行銷企劃與執行-根據客戶個別情形安排各種廣告與創意行銷服務</li>
-                    </ul>
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-                <div style="clear:both;"></div>
-
-            </div>
-            <div id="quote">
-                <p><span class="quote">&ldquo; </span>Etiam vehicula, augue eu ultricies dictum, orci nisi suscipit sem,
-                    nec sollicitudin neque est ac massa. Phasellus elementum nibh vel odio. Proin orci nulla, viverra
-                    tempus, pharetra ut, varius nec, justo. Donec euismod molestie erat. Nulla lobortis bibendum magna.
-                    <span class="quote">&ldquo;</span></p>
-
-                <p class="testimonial">Lorem Ipsum - Client Testimonial</p>
-            </div>
-        </div>
-        <!--end col_left-->
-        <div id="col_right">
-            <div id="news">
-                <h2>News</h2>
-                <ul>
-                    <li>
-                        <p class="date">February 26th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="date">February 27th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="date">February 28th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="archive"><a href="index.html">News archive &raquo;</a></p>
-                    </li>
+    <nav id="mdn-toggle-nav" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-circle-arrow-up"></span>PAGETOP</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-asterisk"></span>功能介紹</a></li>
+            <li class ="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>About US</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>製作者的介紹</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-send"></span>連絡表單</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-warning-sign"></span>隱私權政策</a></li>
                 </ul>
-            </div>
-            <!--end news-->
-            <div id="contacts">
-                <h2>Contact Us</h2>
-
-                <p><span class="green">Name:</span> Ted Hsu</p>
-
-                <p><span class="green">Phone:</span> +123 456 789</p>
-
-                <p><span class="green">Email:</span><a href="index.html"> weare@google.com</a></p>
+            </li>
+            <li><a href="#mdn-modal-sitemap" data-toggle="modal"><span class="glyphicon glyphicon-list-alt"></span>SITEMAP</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="mdn-main">
+    <div id="mdn-area-top">
+        <div class="container">
+            <div class="row">
+                <div id="mdn-box-moc" class="col-md-6 col-sm-12 col-md-push-6 hidden-xs text-center">
+                    <img src="img/iphone-5-moc.png" alt="" width="350" height="620">
+                </div>
+                <div class="col-md-3 col-sm-6 col-md-pull-6 col-xs-12 mdn-box-applink">
+                    <button class="btn btn-primary btn-lg">
+                        <span class="glyphicon glyphicon-new-window"></span>
+                        Google Play<br>下載
+                    </button>
+                </div>
+                <div class="col-md-3 col-sm-6 col-md-pull-6 col-xs-12 mdn-box-applink">
+                    <button class="btn btn-primary btn-lg">
+                        <span class="glyphicon glyphicon-new-window"></span>
+                        App Store<br>下載
+                    </button>
+                </div>
             </div>
         </div>
-        <!--end col_right-->
-
     </div>
-    <!--end content-->
-    <div style="clear:both"></div>
+    <section id="mdn-area-info">
+        <div class="container">
+            <h1>入手最適合WEB開發人員的應用程式</h1>
+            <p class="lead">
+                此網頁是用來說明Bootstrap使用方法的範例網站。
+            </p>
+            <p>
+                假設這是建立iPhone應用程式的登陸頁面。
+            </p>
+            <section class="alert alert-danger alert-dismissable text-center">
+                <a class="close" data-dismiss="alert" href="#">&times;</a>
+                <h1>重要！</h1>
+                <p>這個應用程式是虛構的</p>
+            </section>
+            <div id="mdn-area-tab">
+                <ul class="nav nav-tabs nav-justified">
+                    <li><a href="#mdn-list" data-toggle="tab">功能一覽</a>
+                    <li class="active"><a href="#mdn-price" data-toggle="tab">費用</a>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="mdn-list">
+                        這是功能一覽的頁籤本文<br>
+                        假的文字<br>
+                        假的文字
+                    </div>
+                    <div class="tab-pane active" id="mdn-price">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead>
+                            <tr>
+                                <th>OS</th><th>費用</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>ios</td><td>120元</td>
+                            </tr>
+                            <tr>
+                                <td>Android</td><td>120元</td>
+                            </tr>
+                            <tr>
+                                <td>Windows</td><td>120元</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="mdn-area-contact">
+        <h1 class="text-center">連絡我們</h1>
+        <div>
+            <form class="form-horizontal">
+                <div class="row">
+                    <div class="col-md-7 col-md-offset-3  col-sm-8 col-sm-offset-2">
+                        <div class="form-group has-error">
+                            <div class="row">
+                                <label for="mdn-name" class="col-md-2 control-label">姓名</label>
+                                <div class="col-md-10">
+                                    <input type="text" id="mdn-name" class="form-control" placeholder="請輸入姓名">
+                                    <p class="help-block">未輸入姓名</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="mdn-email" class="col-md-2 control-label">E-mail</label>
+                                <div class="col-md-10">
+                                    <input type="text" id="mdn-email" class="form-control" placeholder="請輸入電子郵件">
+                                    <p class="help-block">請以半形輸入</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <label for="mdn-comment" class="col-md-2 control-label">意見</label>
+                                <div class="col-md-10">
+                                    <textarea id="mdn-comment" class="form-control" rows="5">此連絡表單是一個模板</textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-109 col-md-offset-2">
+                                <input type="submit" value="submit" class="btn btn-default">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
 </div>
-
-<!--end wrapper-->
-<div id="footer"><p>&copy; 2015 <a href="#">WEARE.com</a>. Valid CSS &amp; XHTML. Template design by <a
-        href="http://www.chamadigital.com" title="Chama Digital">Chama Digital</a> | Courtesy <a
-        href="http://www.openwebdesign.org" target="_blank">Open Web Design</a>, Thanks to <a
-        href="http://www.seo.us.com" target="_blank">TED HSU</a></p>
+<footer id="mdn-footer" class="navbar-inverse text-center">
+    <span class="glyphicon glyphicon-copyright-mark"></span>Copyright
+</footer>
+<div class="modal fade" id="mdn-modal-sitemap">
+    <div class="modal-dialog">
+        <section class="modal-content">
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h1 class="modal-title">網站地圖</h1>
+            </div>
+            <div class="modal-body">
+                <p>假的文字</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">關閉</button>
+            </div>
+        </section>
+    </div>
 </div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
