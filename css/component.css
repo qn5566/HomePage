@@ -124,11 +124,13 @@ Movie information
 .info header h1 {
     margin: 0 0 2px;
     font-size: 1.4em;
+    color: #FF44AA;
 }
 
 .info header .rating {
     border: 1px solid #FFF;
     padding: 0px 3px;
+    color: #33FFFF;
 }
 
 .info p {
