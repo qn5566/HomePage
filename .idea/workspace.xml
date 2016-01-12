@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1028.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1_poster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/2_poster.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/3_poster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/4_poster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5_apk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/5_poster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrows.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/arrows.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/c2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/close-n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/close-s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/img05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/img12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mqtt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/partner/team8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/a.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.mgang.small2big.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.movingboxes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/lrtk.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/small2big.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/001.js" afterPath="$PROJECT_DIR$/js/001.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/component.css" afterPath="$PROJECT_DIR$/css/component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modify.iws" />
@@ -95,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64044946" vertical-offset="0" max-vertical-offset="6540">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.6527778" vertical-offset="1021" max-vertical-offset="6540">
+              <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -848,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64044946" vertical-offset="0" max-vertical-offset="6540">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.6527778" vertical-offset="1021" max-vertical-offset="6540">
+          <caret line="90" column="27" selection-start-line="90" selection-start-column="27" selection-end-line="90" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
