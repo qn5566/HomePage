@@ -175,29 +175,45 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-    background-image: url(../images/poster01.jpg);
+    background-image: url(../img/1_poster.png);
 }
 
 .scene:nth-child(2) .poster {
-    background-image: url(../images/poster02.jpg);
+    background-image: url(../img/2_poster.jpg);
 }
 
 .scene:nth-child(3) .poster {
-    background-image: url(../images/poster03.jpg);
+    background-image: url(../img/3_poster.png);
 }
 
+.scene:nth-child(4) .poster {
+    background-image: url(../img/4_poster.png);
+}
+
+.scene:nth-child(5) .poster {
+    background-image: url(../img/5_poster.png);
+}
+
+
 .scene:nth-child(1) .info header {
-    background-image: url(../images/still01.jpg);
+    background-image: url(../img/1_apk.png);
 }
 
 .scene:nth-child(2) .info header {
-    background-image: url(../images/still02.jpg);
+    background-image: url(../img/2_apk.png);
 }
 
 .scene:nth-child(3) .info header {
-    background-image: url(../images/still03.jpg);
+    background-image: url(../img/3_apk.png);
 }
 
+.scene:nth-child(4) .info header {
+    background-image: url(../img/4_apk.png);
+}
+
+.scene:nth-child(5) .info header {
+    background-image: url(../img/5_apk.png);
+}
 /*************************************
 Fallback
 **************************************/

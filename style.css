@@ -300,11 +300,22 @@ h4 {
     border-bottom: 1px solid #343a3d;
 }
 
-#conten2 p {
-    font-size: 9px;
-    padding: 0 0 2px 5px;
+#conten1 h4 {
+    padding-left: 300px;
+}
+
+#conten2 {
+    padding-bottom: 20px;
     border-bottom: 1px solid #343a3d;
 }
+
+
+#conten2 p {
+    font-size: 9px;
+    padding: 7px 0 2px 5px;
+
+}
+
 
 #conten2 h4.image {
     padding: 5px 0 5px 52px;
@@ -324,18 +335,31 @@ h4 {
 }
 
 #conten4 {
-    padding-bottom: 100px;
+    padding-bottom: 140px;
     border-bottom: 1px solid #343a3d;
 }
 
 #conten4 ul li{
-    /*padding: 0 0 14px 20px;*/
+    padding: 0 0 14px 20px;
+    font-size: 12px;
     background: url(images/arrow.jpg) no-repeat center left;
 }
 
 #conten4 div.zone{
     padding: 0 0 14px 18px;
     background: url(images/arrow.jpg) no-repeat center left;
+}
+
+#teamcont {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #343a3d;
+}
+
+#myproject{
+    height:  800px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #343a3d;
 }
 
 
@@ -362,10 +386,15 @@ h4 {
 }
 
 #conten7 {
-    padding-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 100px;
     border-bottom: 1px solid #343a3d;
 }
 
+#conten7 h4{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
 
 #clients ul li {
     padding: 0 0 14px 20px;
@@ -430,4 +459,49 @@ h4 {
 
 .green {
     color: #95ca05;
+}
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: gray;
+}
+
+.s2b_col{
+    position: absolute;
+    top : 475px;
+    list-style-type: none;
+    background-color: aqua;
+    margin-left: 0px;
+    padding: 0;
+}
+.s2b_col li{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 5px solid;
+    font-size: 30px;
+}
+
+#pageLink{
+    margin: 0 auto;
+    height: 40px;
+    color:white;
+    width: 500px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#pageLink a{
+    display: block;
+    float: left;
+    background-color: #ccc;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    width: 100px;
+
 }

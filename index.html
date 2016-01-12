@@ -2,28 +2,34 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <title>一生懸命</title>
+    <title>Ted's Resume</title>
     <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
     <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link type="text/css" href="css/lrtk.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/component.css"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/small2big.css"/>
+    <script type="application/javascript" src="js/jquery.min.js"></script>
+    <script type="application/javascript" src="js/jquery.mgang.small2big.js"></script>
     <script type="text/javascript" src="js/001.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/Chart.js"></script>
+    <script type="text/javascript" src="js/jquery.movingboxes.js"></script>
 </head>
 
 <body>
 <div id="wrapper">
     <div id="header">
 
-        <h1><a href="index.html" title="home">WE ARE
+        <h1><a href="index.html" title="home">RESUME
         </a></h1>
 
         <div id="navigation">
             <ul>
                 <li><a title="About" id="About">About</a></li>
-                <li><a title="Eduction" id="Eduction">Eduction</a></li>
                 <li><a title="Career" id="Career">Career</a></li>
                 <li><a title="Skills" id="Skills">Skills</a></li>
                 <li><a title="Works" id="Works">Works</a></li>
@@ -40,24 +46,40 @@
                 <input name="n1" type="image" src="images/go.gif" value="Search" class="btn"/>
             </div>
         </form>
-        <h2 id="slogan">耐心服務 <span>仔細傾聽</span> 全力去做!</h2>
+        <h2 id="slogan">耐心專心 <span>盡心盡力</span>全力以赴!</h2>
 
-        <img id="imagem" src="images/business.jpg" alt="Business"/>
+        <img id="imagem" src="images/bg_1.jpg" alt="Business"/>
     </div>
 
     <div id="conten1">
         <h3>About me</h3>
-        <h4>姓名:徐尉傑 (Ted)</h4>
-        <h4>地址:桃園市中壢區普忠路223號</h4>
-        <h4>Tel: (03) 4334-139</h4>
-        <h4>Mobile: 0955245522</h4>
-        <h4>生日:1987/08/23</h4>
-        <h4>E-mail: pkwelly@hotmail.com</h4>
+        <h4>Name : Ted Hsu</h4>
+        <h4>Year : 28</h4>
+        <h4>Work EXP : 5 yr</h4>
+        <h4>Language : English ( TOEIC : 660 ) Japanese ( JLPT : N3) </h4>
+        <h4>Constellation : Virgo</h4>
+        <h4>My favorite quote  : Still hungry still foolish by Jobs.</h4>
+
+
+        <ul class="s2b_col" id="s2b_col">
+            <li></li>
+        </ul>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#s2b_col").small2big({
+                    s2bRadius : 170, // 图片被放大时的圆形外框的半径
+                    s2bColLiRowMargin : -10, // 每个圆形之间的距离
+                    s2bLiBorderColor : "#000" // 圆形外框颜色
+                    // s2bLiAlign : "V" 图片竖排
+                }).initS2bCol().addS2bFunction();
+            });
+        </script>
+
     </div>
     <div id="conten2">
         <h3>Eduction</h3>
         <h4 class="image">國立臺灣師範大學 物理海洋環境科學研究所 <p>2012年1月(畢)
-            <a href="http://www.mest.ntnu.edu.tw/news/news.php?class=101">學校網站 &raquo;</a></p></h4>
+            <a href="http://www.mest.ntnu.edu.tw/news/news.php?class=101" target="_blank">學校網站 &raquo;</a></p></h4><br>
     </div>
     <div id="conten3">
         <h3>Career</h3>
@@ -66,22 +88,24 @@
             <p>2013,Mar to 2014,July</p>
             <h4>主要研究台灣東邊海域的地底地震所引發的海嘯事件模擬及研究</h4>
 
-            <p><a href="http://www.ttfri.narl.org.tw/index.html">公司網站 &raquo;</a></p>
+            <p><a href="http://www.ttfri.narl.org.tw/index.html" target="_blank">公司網站 &raquo;</a></p>
 
             <li>禾聯家電</li>
             <p>2014,Sep to 在職</p>
             <h4>主要研究開發GoogleTV、智慧手機、平板，後台資料庫架設</h4>
-            <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257">公司網站 &raquo;</a></p>
+
+            <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257" target="_blank">公司網站 &raquo;</a></p>
 
         </ul>
     </div>
     <div id="conten4">
         <h3>Skills</h3>
+
         <div id="frontend">
             <h3>前台</h3>
             <ul>
                 <li>Android</li>
-                <li>Object-c</li>
+                <li>Object-C</li>
                 <li>HTML/CSS/JavaScript/Jquery/Bootstrap</li>
             </ul>
         </div>
@@ -99,18 +123,131 @@
             </ul>
         </div>
     </div>
-    <div id="conten5">
+    <!--<div id="conten5">-->
+        <!--<h3>My Work</h3>-->
+        <!--<ul>-->
+            <!--<h3>HERAN Smart TV</h3>-->
+            <!--<li>修改及維護GoogleTV</li>-->
+            <!--<li>與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵拉專區、數位學習王專區)</li>-->
+            <!--<li>開發手機、平板與電視互動的廣告機功能(已在上海、全台各地康是美、小三美日、屈臣氏，上架)</li>-->
+            <!--<li>物聯網開發(IoT)，整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合</li>-->
+        <!--</ul>-->
+    <!--</div>-->
+    <div id="teamcont" >
         <h3>My Work</h3>
-        <ul>
-            <h3>HERAN Smart TV</h3>
-            <li>修改及維護GoogleTV</li>
-            <li>與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵拉專區、數位學習王專區)</li>
-            <li>開發手機、平板與電視互動的廣告機功能(已在上海、全台各地康是美、小三美日、屈臣氏，上架)</li>
-            <li>物聯網開發(IoT)，整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合</li>
+        <div style="width:900px; text-align:center">
+            <div class="parinforma cssshadow">
+                <div class="closebtn"></div>
+                <div class="showLeft">
+                    <div class="partener">
+                        <img class="row1" src="img/img01.jpg" >
+                        <div class="pname">Android TV</div>
+                        <div class="pinfo">維護、開發</div>
+                    </div>
+                </div>
+                <div class="showRight">
+                    <div class="huncontent">
+                        <h5> Heran主要有3台AndroidTV機種，版本分別為4.2、4.4、5.0(4K)</h5><br>
+                        <h5>目前主要開發及維護<a href="https://www.youtube.com/watch?v=cQPyABBXZDQ" target="_blank">Heran4K</a>機種(Android5.0)<br>
+                        及手機遠端遙控電視開發</h5><br>
+                        <img src="img/img08.jpg"><img src="img/img07.jpg"><br>
+                        </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
 
-        </ul>
+            <div class="parinforma cssshadow">
+                <div class="closebtn"></div>
+                <div class="showLeft">
+                    <div class="partener">
+                        <img class="row1" src="img/img12.jpg" >
+                        <div class="pname">Android TV</div>
+                        <div class="pinfo">客戶合作專案</div>
+                    </div>
+                </div>
+                <div class="showRight">
+                    <div class="huncontent">
+                        目前已有許多和客戶合作的經驗<br>
+                        <h5>2014-12 <a href="http://www.pandoratv.tw/" target="_blank">潘朵啦AV影城</a></h5><br>
+                        <img src="img/img04.jpg"><br>
+                        <h5>2015-06 <a href="http://www.fashionguide.com.tw/" target="_blank">FashionGuide</a>
+                        與<a href=" http://www.1028loveu.com/" target="_blank">1028美妝</a></h5><br>
+                        <img src="img/img06.jpg"><br>
+                        <h5>2015-10 燦坤特別機種</h5><br>
+                        <h5>2015-12 <a href="https://www.study123.com.tw/" target="_blank">數位學習王</a></h5><br>
+                        <img src="img/img09.jpg"><br>
+                     </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+
+            <div class="parinforma cssshadow">
+                <div class="closebtn"></div>
+                <div class="showLeft">
+                    <div class="partener">
+                        <img class="row1" src="img/1028.jpg" >
+                        <div class="pname">智慧連網廣告機功能</div>
+                        <div class="pinfo">開發手機、平板與電視互動</div>
+                    </div>
+                </div>
+                <div class="showRight">
+                    <div class="huncontent">
+                      <h5> 利用AndroidTV與PHP的Json串接，建置後台資料上傳到各地電視機上
+                        ，目前已在上海、及全台各地康是美、小三美日、屈臣氏，上架</h5><br>
+                        <img src="img/img02.jpg"><img src="img/img06.jpg"><br>
+                        <h5> 還可以透過手機&平板Socket傳輸，做互動遊戲，存取大數據，可以知道使用者的操作行為之資訊</h5><br>
+                        <img src="img/img10.jpg"><br>
+                        <h5>目前正在研發人臉辨識功能，能夠計算人流數量，注視時間、人數等，並上傳到後台做大數據處理</h5><br>
+                        <img src="img/img11.jpg"><br>
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+
+            <div class="parinforma cssshadow">
+                <div class="closebtn"></div>
+                <div class="showLeft">
+                    <div class="partener">
+                        <img class="row1" src="img/mqtt.png" >
+                        <div class="pname">物聯網開發(IoT)</div>
+                        <div class="pinfo">小家電智慧整合</div>
+                    </div>
+                </div>
+                <div class="showRight">
+                    <div class="huncontent">
+                        整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合，目標2016年底上市，現在透過MQTT的方式架在RTOS上
+                        ，並與後台PHP端及Android做串接</div>
+                    <img src="img/img02.jpg"><img src="img/img03.jpg"><br>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+
+
+            <div id="pichuan">
+                <div class="partener">
+                    <img class="row1" src="img/img01.jpg" >
+                    <div class="pname">修改及維護GoogleTV</div>
+                    <div class="pinfo">Android&PHP</div>
+                </div>
+                <div  class="partener"><img class="row1" src="img/img12.jpg" >
+                    <div class="pname">開發電視專案</div>
+                    <div class="pinfo">Android&PHP</div>
+                </div>
+                <div  class="partener"><img class="row1" src="img/1028.jpg" >
+                    <div class="pname">電視互動的廣告機功能</div>
+                    <div class="pinfo">Android&PHP</div>
+                </div>
+                <div class="partener"><img class="row1" src="img/mqtt.png" >
+                    <div class="pname">物聯網開發(IoT)</div>
+                    <div class="pinfo">Android&PHP&C</div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
     </div>
-    <div>
+
+    <div id="myproject">
+        <h3>My Project</h3>
         <ul class="stage">
             <li class="scene">
                 <div class="movie" onclick="return true">
@@ -121,11 +258,13 @@
                             <span class="year">2015-9</span>
                             <span class="rating">iOS&Android</span>
                             <span class="duration"><br>
-                                <a href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8">iOS Store &raquo;</a><br>
-                                <a href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod>Google Play &raquo;</a>
+                                <a href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8" target="_blank">iOS
+                                    Store &raquo;</a><br>
+                                <a href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod target="_blank">Google
+                                    Play &raquo;</a>
                             </span>
                         </header>
-                        <p>台灣萬人使用率最高的媽媽寶寶BLOG合作<br>
+                        <p>台灣萬人使用率高媽媽寶寶BLOG合作<br>
                             書籍app的商業購買系統，主要團隊有網頁、後台PHP、前台IOS、Android，
                             主要負責撰寫Android，此APP的特色串接後台(JSON)
                             會員系統、Google的內購系統(In-app billing)、Vungle的影音
@@ -143,7 +282,8 @@
                             <span class="year">2015-5</span>
                             <span class="rating">Android</span>
                             <span class="duration"></span><br>
-                            <a href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar>Google Play &raquo;</a>
+                            <a href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar target="_blank">Google
+                                Play &raquo;</a>
                         </header>
                         <p>客戶邀約案件內容:<br>
                             日達汽車修車廠的客製化APP，主要是配合GoogleMap導航系統、及GCM(聊天系統)。
@@ -161,7 +301,7 @@
                             <span class="year">2015-7</span>
                             <span class="rating">Android</span>
                             <span class="duration"></span><br>
-                            <a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>
+                            <a href=https://play.google.com/store/apps/details?id=com.ted.nanami target="_blank">Google Play &raquo;</a>
                         </header>
                         <p>客戶邀約案件內容:<br>
                             可以顯示喜歡的圖片在桌面上，以及內購程式(Google)。
@@ -170,160 +310,121 @@
                 </div>
             </li>
 
+            <li class="scene">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>GCM Chat</h1>
+                            <span class="year">未上架</span>
+                            <span class="rating">Android</span>
+                            <span class="duration"></span><br>
+                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
+                        </header>
+                        <p>GCM的聊天系統:<br>
+                            利用Google-GCM做的公司、部門專屬的聊天系統<br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="scene">
+                <div class="movie" onclick="return true">
+                    <div class="poster"></div>
+                    <div class="info">
+                        <header>
+                            <h1>視訊對話</h1>
+                            <span class="year">未上架</span>
+                            <span class="rating">Android</span>
+                            <span class="duration"></span><br>
+                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
+                        </header>
+                        <p>手機視訊系統:<br>
+                            利用Google的SDK-NSD把裝置的ip顯示在同網域的AP上面，之後利用Socket做視訊溝通<br>
+                        </p>
+                    </div>
+                </div>
+            </li>
+
         </ul>
     </div>
-    <!--<div id="conten6">-->
-        <!--<h3>Project</h3>-->
-        <!--<ul>-->
-            <!--<li>1.媽媽百寶箱(MomBaby) on AppStore and GooglePaly</li>-->
-            <!--<h4><a href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8">iOS Store &raquo;</a>-->
-            <!--</h4>-->
-            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod>Google Play &raquo;</a>-->
-            <!--</h4>-->
-            <!--<h4>假日接的外包案，一個類似書籍app的商業購買系統，主要團隊有網頁、後台PHP、-->
-                <!--前台IOS、Android，我是負責撰寫Android，iOS與朋友一起寫(swift)，-->
-                <!--此APP的特色有後台JSON串接會員系統(會員與非會員之顯示差異)、-->
-                <!--Google的內購系統、Vungle的影音廣告SDK導入(點及廣告非會員可免費看5分鐘文章)-->
-                <!--、Google廣告(Admob)、FB SDK串接會員系統、WebView的JavaScript互動設定、等。</h4>-->
-            <!--<li>2.日達汽車(RDCar)on GooglePlay</li>-->
-            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar>Google Play &raquo;</a></h4>-->
-            <!--<h4>日達汽車修車廠的客製化APP，主要是配合GoogleMap導航系統、及GCM(聊天系統)。</h4>-->
-            <!--<li>3.女朋友icon(GirlFriend icon) on GooglePlay</li>-->
-            <!--<h4><a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a></h4>-->
-            <!--<h4>可以顯示喜歡的圖片在桌面上，以及內購程式(Google)。</h4>-->
-        <!--</ul>-->
-    <!--</div>-->
+
     <div id="conten7">
         <h3>Autobiography</h3>
         <h4>
-            由於工作的關係也碰到些後台的語言，如：PHP、HTML、Javascript、JSP，自己也在利用空閒時間，
+            &nbsp;&nbsp;由於工作的關係也碰到些後台的語言，如：PHP、HTML、Javascript、JSP，自己也在利用空閒時間，
             學習iOS(Object-c、Swift)。這一路上開發了許多好玩的app，並且交到一些也很喜歡寫程式的朋友們，
-            讓我對程式設計師的領域，增加了許多樂趣。對未來充滿了許多的期待及幻想，要隨時保持學習，對生命充滿熱情。
+            讓我對程式設計師的領域，增加了許多樂趣。對未來充滿了許多的期待及幻想，要隨時保持學習，對生命充滿熱情。<br>
+            <img src="img/bg_2.jpg" align="right" >
         </h4>
     </div>
 
+    <!--<div id="quote">-->
+        <!--<p><span class="quote">&ldquo; </span>Etiam vehicula, augue eu ultricies dictum, orci nisi suscipit sem,-->
+            <!--nec sollicitudin neque est ac massa. Phasellus elementum nibh vel odio. Proin orci nulla, viverra-->
+            <!--tempus, pharetra ut, varius nec, justo. Donec euismod molestie erat. Nulla lobortis bibendum magna.-->
+            <!--<span class="quote">&ldquo;</span></p>-->
 
-    <div id="content2">
-        <div id="col_left">
-            <div id="welcome">
-                <h2>歡迎您</h2>
-
-                <p>
-                    "WE ARE"行銷成立於2015年，秉持成為「企業最佳事業夥伴」的經營理念，發展ALL IN ONE的服務內容。營業項目從網頁設計與
-                    平面設計開始，陸續增加了網路行銷、程式設計及APP設計開發，提供企業一系列整合式的專業服務，解決企業拼湊各種需求但最後
-                    卻還是沒成功的困擾。
-                    謝謝您能選擇我們的團隊，我們工作室秉持著簡單、慎重、自我要求高，很高興有機會能夠會您服務
-
-                </p>
-            </div>
-            <!--end welcome-->
-            <div id="center">
-
-                <div id="about_us">
-                    <h3>放眼未來眾能將朝幾個方向躍進</h3>
-
-                    <p>
-                        繼續精進於技術創新與整合應用能力，提供企業更多元的商業應用解決方案，成為技術整合應用的領導品牌。
-                        發現市場需求，發展自有平台、產品與商業模式。
-                        尋求更多有理想、能力、正直的個人與團隊加入，打造眾能成為「眾心齊聚，無所不能」的公司。
-                        目標在2018年上櫃。
-                    </p>
-
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-
-                <div id="services">
-                    <h3>經營理念</h3>
-                    <ul>
-                        <li>「誠信、守法」是我們的基因。</li>
-                        <li>「創新、研發」是我們的信條。</li>
-                        <li>「海納百川，有容乃大」是我們發展的策略。</li>
-                        <li>「成長>獲利>分享」是對公司夥伴的承諾。</li>
-                        <li>「ALL IN ONE」為服務內容追求目標。</li>
-                    </ul>
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-                <div id="clients">
-                    <h3>服務項目</h3>
-                    <ul>
-                        <li>程式設計-APP設計開發</li>
-                        <li>WEB程式設計</li>
-                        <li>管理系統開發</li>
-                        <li>FB應用程式設計</li>
-                        <li>整合行銷企劃與執行-根據客戶個別情形安排各種廣告與創意行銷服務</li>
-                    </ul>
-                    <p><a href="index.html" title="Continue Reading">Continue Reading &raquo;</a></p>
-                </div>
-                <div style="clear:both;"></div>
-
-            </div>
-            <div id="quote">
-                <p><span class="quote">&ldquo; </span>Etiam vehicula, augue eu ultricies dictum, orci nisi suscipit sem,
-                    nec sollicitudin neque est ac massa. Phasellus elementum nibh vel odio. Proin orci nulla, viverra
-                    tempus, pharetra ut, varius nec, justo. Donec euismod molestie erat. Nulla lobortis bibendum magna.
-                    <span class="quote">&ldquo;</span></p>
-
-                <p class="testimonial">Lorem Ipsum - Client Testimonial</p>
-            </div>
-        </div>
-        <!--end col_left-->
-        <div id="col_right">
-            <div id="news">
-                <h2>News</h2>
-                <ul>
-                    <li>
-                        <p class="date">February 26th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="date">February 27th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="date">February 28th, 2015 </p>
-
-                        <p>Lorem ipsum dolor sit amet, consect adipiscing elit. In iaculis vestibulum elit. Nam blandit.
-                            Proin...</p>
-
-                        <p><a href="index.html">Read more &raquo;</a></p>
-                    </li>
-                    <li>
-                        <p class="archive"><a href="index.html">News archive &raquo;</a></p>
-                    </li>
-                </ul>
-            </div>
-            <!--end news-->
-            <div id="contacts">
-                <h2>Contact Us</h2>
-
-                <p><span class="green">Name:</span> Ted Hsu</p>
-
-                <p><span class="green">Phone:</span> 0955245522</p>
-
-                <p><span class="green">Email:</span><a href="index.html">pkwelly@hotmail.com</a></p>
-            </div>
-        </div>
-        <!--end col_right-->
-    </div>
+        <!--<p class="testimonial">Lorem Ipsum - Client Testimonial</p>-->
+    <!--</div>-->
     <!--end content-->
     <div style="clear:both"></div>
 </div>
 
 <!--end wrapper-->
-<div id="footer"><p>&copy; 2015 <a href="#" id="goTop">WEARE.com</a>. Valid CSS &amp; XHTML. Template design by <a
-        href="http://www.chamadigital.com" title="Chama Digital">Chama Digital</a> | Courtesy <a
-        href="http://www.openwebdesign.org" target="_blank">Open Web Design</a>, Thanks to <a
-        href="http://www.seo.us.com" target="_blank">TED HSU</a></p>
+<div id="footer"><p>&copy; 2016 <a href="#" id="goTop">MeetYouStudio.com</a>. Valid CSS &amp; XHTML &amp; Jquery &amp; javascript &amp; Ajax. Template design by <a
+        href="http://tw.yahoo.com" title="Chama Digital">Ted Hsu</a> | Meet C. <a
+        href="http://tw.yahoo.com" target="_blank">Open Web Design</a>, Thanks to <a
+        href="http://tw.yahoo.com" target="_blank">MeetYouStudio</a></p>
 </div>
+
+<div id="chat_f1">
+    <div id="chat_f1_main">
+        <div id="close"></div>
+        <!--<a title="点击咨询在线客服" href="http://www.lanrentuku.com" class="a_kf"></a>-->
+        <!--<a title="点击咨询售后" href="http://www.lanrentuku.com" class="a_sh"></a>-->
+    </div>
+    <div class="chat_f1_expr">
+        <div class="list">
+            <div class="name">
+                <span class="arrow">&bull;</span><a title="GitHup" href="https://github.com/qn5566" target="_blank">GitHup</a>
+            </div>
+        </div>
+        <div class="list">
+            <div class="name">
+                <span class="arrow">&bull;</span><a title="Stackoverflow" href="https://github.com/qn5566" target="_blank">Stackoverflow</a>
+            </div>
+        </div>
+        <div class="list">
+            <div class="name">
+                <span class="arrow">&bull;</span><a title="與我聯繫">與我聯繫</a>
+
+                <div class="detail">
+                    <div class="border"></div>
+                    <div class="mt"><strong>信箱：</strong>
+                        pkwelly@hotmail.com
+                    </div>
+                    <div class="mt"><strong>電話：</strong>0955245522</div>
+                    <div class="mt mt5">
+                        <a class="send_sms"></a>&emsp;
+                        <a class="ovl">進入首頁&raquo;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="chat_f1_bottom"></div>
+</div>
+<div id="chat_f2" style="display:none;">與我聯繫</div>
 </body>
 </html>
 
+<!--<div id="contacts">-->
+<!--<h2>Contact Us</h2>-->
+
+<!--<p><span class="green">Name:</span> Ted Hsu</p>-->
+
+<!--<p><span class="green">Phone:</span> 0955245522</p>-->
+
+<!--<p><span class="green">Email:</span><a href="index.html">pkwelly@hotmail.com</a></p>-->
+<!--</div>-->
 
