@@ -128,9 +128,15 @@ Movie information
 }
 
 .info header .rating {
+    background-color:#444444;
     border: 1px solid #FFF;
     padding: 0px 3px;
     color: #33FFFF;
+}
+
+.info header .year {
+    background-color:#444444;
+    color: #DDDDDD;
 }
 
 .info p {

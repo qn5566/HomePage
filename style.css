@@ -44,14 +44,15 @@ body {
     text-align: center; /*this is in place to center in older browsers*/
 }
 
-a {
+a.new_a {
     text-decoration: none;
-    color: #05c7c0;
+    color: #FFFF33;
 }
 
-a:link {
+a:link.new_a {
     /* unvisited link */
-    color: #05c7c0;
+    color: #EEEE00;
+    background-color:#444444;
 }
 
 a:hover {

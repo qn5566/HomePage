@@ -186,4 +186,6 @@
 		}
 		LI_BTN.find('li').eq(cur-1).addClass('selected');
 	}
+
+
 })();
