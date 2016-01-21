@@ -152,6 +152,35 @@ a:link, a:visited, a:hover {
     margin-top:30px;
 
 }
+
+#teamcont .project1{
+
+    margin-left:60px;
+    margin-top:60px;
+
+}
+
+#teamcont .project2{
+
+    margin-left:60px;
+    margin-top:30px;
+
+}
+
+#teamcont .project3{
+
+    margin-left:60px;
+    margin-top:30px;
+
+}
+
+#teamcont .project4{
+
+    margin-left:60px;
+    margin-top:30px;
+
+}
+
 #teamcont #pichuan .partener{
     float:left;
 }

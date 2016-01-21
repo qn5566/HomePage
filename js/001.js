@@ -69,7 +69,7 @@ $(function () {
             return "&#9679;";
         } // 指示器格式，为空即会显示123
     });
-
+//這是產品資訊
 
     $("#pichuan .partener").mouseenter(function () {
 
