@@ -29,7 +29,7 @@ $(function () {
     });
     $("#Skills").click(function () {
 
-        $("html,body").animate({scrollTop: 1110}, 1600);
+        $("html,body").animate({scrollTop: 1290}, 1600);
 
         return false;
 
@@ -37,7 +37,7 @@ $(function () {
     });
     $("#Works").click(function () {
 
-        $("html,body").animate({scrollTop: 1310}, 1800);
+        $("html,body").animate({scrollTop: 1550}, 1800);
 
         return false;
 
@@ -45,7 +45,7 @@ $(function () {
     });
     $("#Project").click(function () {
 
-        $("html,body").animate({scrollTop: 1710}, 2000);
+        $("html,body").animate({scrollTop: 2350}, 2000);
 
         return false;
 
@@ -81,7 +81,7 @@ $(function () {
 
 
     }).mouseleave(function () {
-        $(this).find("div").css("color", "black");
+        $(this).find("div").css("color", "lavenderblush");
         $(this).find("img").delay(200).stop().clearQueue().animate({
             borderRadius: "60",
             opacity: 0.9

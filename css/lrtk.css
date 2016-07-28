@@ -147,10 +147,10 @@ a:link, a:visited, a:hover {
     padding:0 auto;
 }
 #teamcont .partener{
-
-    margin-left:65px;
-    margin-top:30px;
-
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:100px;
+    margin-right:100px;
 }
 
 #teamcont .project1{
@@ -185,12 +185,14 @@ a:link, a:visited, a:hover {
     float:left;
 }
 .pname{
-    padding:25px 0 10px 0;
+    padding:20px 0 10px 0;
     font-weight:bold;
-    color:black;
+    font-size: 20px;
+    color:lightcyan;
 }
 .pinfo{
-    color:black;
+    color:lavenderblush;
+    font-size: 15px;
 }
 .parinforma{
     position:absolute;
@@ -234,7 +236,7 @@ a:link, a:visited, a:hover {
     padding:40px 0px 20px 30px;
     font-size:18px;
     line-height:35px;
-    width:420px;
+    width:300px;
     text-align:left
 }
 .closebtn{
