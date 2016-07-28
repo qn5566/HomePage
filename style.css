@@ -70,7 +70,7 @@ a:active {
 /*  layout */
 #wrapper {
     width: 900px;
-
+    padding-left: 20px;
     margin: 0 auto;
     text-align: left;
     background: #2d3235;
