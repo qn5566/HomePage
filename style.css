@@ -286,19 +286,20 @@ h4 {
 }
 
 #frontend ul li {
-    padding: 0 0 0 20px;
-
+    margin-bottom: 0px;
 }
 
+
 #backend ul li {
-    padding: 0 0 0 20px;
+    margin-bottom: 0px;
 }
 
 #a_little ul li {
-    padding: 0 0 0 20px;
+    margin-bottom: 0px;
 }
 
 #conten1 {
+    padding-top: 5px;
     padding-bottom: 35px;
     border-bottom: 1px solid #343a3d;
 }
@@ -308,6 +309,7 @@ h4 {
 }
 
 #conten2 {
+    padding-top: 5px;
     padding-bottom: 20px;
     border-bottom: 1px solid #343a3d;
 }
@@ -327,6 +329,7 @@ h4 {
 }
 
 #conten3 {
+    padding-top: 5px;
     padding-bottom: 35px;
     border-bottom: 1px solid #343a3d;
 }
@@ -337,14 +340,22 @@ h4 {
     background: url(images/bullet.jpg) no-repeat center left;
 }
 
+#conten3 li {
+    margin-top: 10px;
+    color: gold;
+}
+
 #conten4 {
-    padding-bottom: 140px;
+    padding-top: 5px;
+    padding-bottom: 230px;
     border-bottom: 1px solid #343a3d;
 }
 
 #conten4 ul li{
-    padding: 0 0 14px 20px;
-    font-size: 12px;
+    padding: 14px 0 14px 20px;
+    font-size: 23px;
+    text-shadow: 1px 0 1px #8B4513, 0 1px 1px #8B4513,
+    0 -1px 1px #8B4513, -1px 0 1px #8B4513;
     background: url(images/arrow.jpg) no-repeat center left;
 }
 
@@ -352,6 +363,7 @@ h4 {
     padding: 0 0 14px 18px;
     background: url(images/arrow.jpg) no-repeat center left;
 }
+
 
 #teamcont {
     padding-bottom: 100px;
@@ -373,6 +385,7 @@ h4 {
 }
 
 #conten5  {
+    padding-top: 5px;
     padding-bottom: 35px;
     border-bottom: 1px solid #343a3d;
 }
@@ -384,6 +397,7 @@ h4 {
 }
 
 #conten6 {
+    padding-top: 5px;
     padding-bottom: 35px;
     border-bottom: 1px solid #343a3d;
 }
@@ -395,6 +409,8 @@ h4 {
 }
 
 #conten7 h4{
+    text-shadow: 1px 0 1px #8B4513, 0 1px 1px #8B4513,
+    0 -1px 1px #8B4513, -1px 0 1px #8A4513;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
 }
