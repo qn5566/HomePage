@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/en.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/language/zh.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/lrtk.css" afterPath="$PROJECT_DIR$/css/lrtk.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/001.js" afterPath="$PROJECT_DIR$/js/001.js" />
-    </list>
+    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="" />
     <ignored path="modify.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -439,7 +432,7 @@
       <workItem from="1469668127535" duration="13153000" />
       <workItem from="1469763261030" duration="165000" />
       <workItem from="1479956327430" duration="812000" />
-      <workItem from="1480753690321" duration="3654000" />
+      <workItem from="1480753690321" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch via GitHub">
       <created>1427953058638</created>
@@ -648,7 +641,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19362000" />
+    <option name="totallyTimeSpent" value="19414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="996" extended-state="6" />
