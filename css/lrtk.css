@@ -32,7 +32,7 @@ a:link, a:visited, a:hover {
 
 #chat_f1_main {
     height: 134px;
-    background: url(../images/c2.png) no-repeat
+    background: url(../images/c2_fx.png) no-repeat
 }
 
 #close {
@@ -58,7 +58,7 @@ a:link, a:visited, a:hover {
     height: 3px;
     width: 82px;
     overflow: hidden;
-    background: url(../images/c2.png) 0px -160px no-repeat
+    background: url(../images/c2_fx.png) 0px -160px no-repeat
 }
 
 .chat_f1_expr {
