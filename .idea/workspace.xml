@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="1.新增網路視訊&#10;2.英文版履歷">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_en.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webcamera/webchat.html" />
+    <list default="true" id="8d575690-277a-4fd8-8c7d-04437f79f015" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="modify.iws" />
@@ -396,7 +394,7 @@
       <workItem from="1482311974576" duration="786000" />
       <workItem from="1483491816100" duration="250000" />
       <workItem from="1485156351089" duration="691000" />
-      <workItem from="1486025858379" duration="373000" />
+      <workItem from="1486025858379" duration="405000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch via GitHub">
       <created>1427953058638</created>
@@ -601,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469672772041</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="1.新增網路視訊&#10;2.英文版履歷">
+      <created>1486026243169</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1486026243169</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22375000" />
+    <option name="totallyTimeSpent" value="22407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1001" extended-state="6" />
