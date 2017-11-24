@@ -31,8 +31,8 @@
       <file leaf-file-name="index_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="202">
+              <caret line="385" column="68" selection-start-line="385" selection-start-column="68" selection-end-line="385" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,11 +50,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="113">
+              <caret line="383" column="50" selection-start-line="383" selection-start-column="50" selection-end-line="383" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1511507038000" expanded="false" signature="19535:19548" placeholder="..." />
+                <marker date="1511508233000" expanded="false" signature="19723:19736" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -409,7 +409,7 @@
       <workItem from="1502777996989" duration="8000" />
       <workItem from="1502778071542" duration="533000" />
       <workItem from="1511446621754" duration="2664000" />
-      <workItem from="1511473362188" duration="1539000" />
+      <workItem from="1511473362188" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="Create gh-pages branch via GitHub">
       <created>1427953058638</created>
@@ -625,7 +625,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42925000" />
+    <option name="totallyTimeSpent" value="44102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="6" />
@@ -1000,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="202">
+          <caret line="385" column="68" selection-start-line="385" selection-start-column="68" selection-end-line="385" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1017,11 +1017,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="113">
+          <caret line="383" column="50" selection-start-line="383" selection-start-column="50" selection-end-line="383" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1511507038000" expanded="false" signature="19535:19548" placeholder="..." />
+            <marker date="1511508233000" expanded="false" signature="19723:19736" placeholder="..." />
           </folding>
         </state>
       </provider>
