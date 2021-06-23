@@ -182,16 +182,16 @@ Generate "lighting" using box shadows
 Posters and still images
 **************************************/
 
-.scene:nth-child(1) .movie .poster {
-    background-image: url(../img/1_poster.png);
+.scene:nth-child(1) .poster {
+    background-image: url(../img/6_poster.png);
 }
 
 .scene:nth-child(2) .poster {
-    background-image: url(../img/2_poster.jpg);
+    background-image: url(../img/3_poster.png);
 }
 
 .scene:nth-child(3) .poster {
-    background-image: url(../img/3_poster.png);
+    background-image: url(../img/1_poster.png);
 }
 
 .scene:nth-child(4) .poster {
@@ -202,17 +202,21 @@ Posters and still images
     background-image: url(../img/5_poster.png);
 }
 
+.scene:nth-child(6) .movie .poster {
+    background-image: url(../img/2_poster.jpg);
+}
+
 
 .scene:nth-child(1) .info header {
-    background-image: url(../img/1_apk.png);
+    background-image: url(../img/6_apk.png);
 }
 
 .scene:nth-child(2) .info header {
-    background-image: url(../img/2_apk.png);
+    background-image: url(../img/3_apk.png);
 }
 
 .scene:nth-child(3) .info header {
-    background-image: url(../img/3_apk.png);
+    background-image: url(../img/1_apk.png);
 }
 
 .scene:nth-child(4) .info header {
@@ -221,6 +225,10 @@ Posters and still images
 
 .scene:nth-child(5) .info header {
     background-image: url(../img/5_apk.png);
+}
+
+.scene:nth-child(6) .info header {
+    background-image: url(../img/2_apk.png);
 }
 /*************************************
 Fallback
