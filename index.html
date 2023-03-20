@@ -1,53 +1,53 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Ted's Resume</title>
-    <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <link type="text/css" href="css/lrtk.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/component.css"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link type="text/css" href="css/lrtk.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/small2big.css"/>
+    <link type="text/css" rel="stylesheet" href="css/small2big.css" />
     <script type="application/javascript" src="js/jquery.min.js"></script>
     <script type="application/javascript" src="js/jquery.mgang.small2big.js"></script>
     <script type="text/javascript" src="js/001.js"></script>
     <script type="text/javascript" src="js/js.js"></script>
     <script type="text/javascript" src="js/Chart.js"></script>
     <script type="text/javascript" src="js/jquery.movingboxes.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57868222-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-57868222-4');
-</script>
     <style type="text/css">
-        @font-face { font-family: JuneBug; src: url('css/co.otf'); }
+        @font-face {
+            font-family: JuneBug;
+            src: url('css/co.otf');
+        }
+
         .h1 {
             font-family: JuneBug
         }
+
         .h2 {
             font-family: JuneBug
         }
+
         .h3 {
             font-family: JuneBug
         }
+
         .h4 {
             font-family: JuneBug
         }
+
         .h5 {
             font-family: JuneBug
         }
+
         .div {
             font-family: JuneBug
         }
-        .span{
+
+        .span {
             font-family: JuneBug
         }
     </style>
@@ -55,477 +55,292 @@
 </head>
 
 <body>
-<div id="wrapper">
-    <div id="header">
+    <div id="wrapper">
+        <div id="header">
 
-        <h1 style="font-family: JuneBug"><a href="index.html" title="home">RESUME
-        </a></h1>
+            <h1 style="font-family: JuneBug"><a href="index.html" title="home">RESUME
+                </a></h1>
 
-        <div id="navigation">
+            <div id="navigation">
+                <ul>
+                    <li><a title="About" id="About">About</a></li>
+                    <li><a title="Career" id="Career">Career</a></li>
+                    <li><a title="Skills" id="Skills">Skills</a></li>
+                    <li><a title="Project" id="Project">Project</a></li>
+                    <li><a title="Autobiography" id="Autobiography">Autobiography</a></li>
+                </ul>
+            </div>
+            <!--end navigation-->
+
+            <img id="imagem" src="images/bg_1.jpg" alt="Business" />
+        </div>
+
+        <div id="conten1">
+            <h3>About me</h3>
+            <h4>Name : Ted Hsu</h4>
+            <h4>Year : 36</h4>
+            <h4>IT Work EXP : Android 11yr, Flutter 1yr, iOS 4yr,
+                PHP 2yr, MySql 4yr, JAVA 2yr</h4>
+            <h4>Language : English & Japanese ( JLPT : N3) </h4>
+            <h4>Nation : Taiwan</h4>
+            <h4>Location : Taiwan</h4>
+            <h4>Document download：
+                <a href="./file/Ted_CVzh.pdf" download="HSU_CV.pdf">
+                    <img border="0" src="images/download.png" alt="ted_pdf">
+                </a>
+            </h4>
+
+            <ul class="s2b_col" id="s2b_col">
+                <li></li>
+            </ul>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#s2b_col").small2big({
+                        s2bRadius: 170, // 图片被放大时的圆形外框的半径
+                        s2bColLiRowMargin: -10, // 每个圆形之间的距离
+                        s2bLiBorderColor: "#000" // 圆形外框颜色
+                        // s2bLiAlign : "V" 图片竖排
+                    }).initS2bCol().addS2bFunction();
+                });
+            </script>
+
+        </div>
+        <div id="conten2">
+            <h3>Eduction</h3>
+            <h4 class="image">國立臺灣師範大學資訊工程研究所 <p>2012年1月(畢)
+                    <a href="http://w1.csie.ntnu.edu.tw/" target="_blank">學校網站 &raquo;</a>
+                </p>
+            </h4><br>
+        </div>
+        <div id="conten3">
+            <h3>Career</h3>
             <ul>
-                <li><a title="About" id="About">About</a></li>
-                <li><a title="Career" id="Career">Career</a></li>
-                <li><a title="Skills" id="Skills">Skills</a></li>
-                <li><a title="Works" id="Works">Works</a></li>
-                <li><a title="Project" id="Project">Project</a></li>
-                <li><a title="Autobiography" id="Autobiography">Autobiography</a></li>
+                <li>台灣</li>
+                <p>2019,Mar until now </p>
+                <h3>宏博網路科技有限公司 (太子集團) - 在職</h3>
+                <h4> 成人影音社交軟體開發</h4>
+                <p><a href="https://mod.run/#/" target="_blank">產品網站 &raquo;</a></p>
+                <h3>Google - Contract</h3>
+                <h4> Pixel Watch 開發</h4>
+                <p><a href="https://store.google.com/tw/category/watches/" target="_blank">產品網站 &raquo;</a></p>
+                <h3>Fortunate International Information Co., Ltd.</h3>
+                <h4> IOS&Android&PHP 手機端遊戲彩票平台開發</h4>
+                <p><a href="http://fortunateinfo.com/" target="_blank">公司網站 &raquo;</a></p>
+
+                <li>菲律賓 - 3年</li>
+                <p>2016,Otc to 2019,Jan</p>
+                <h3>Syno Co., Ltd.</h3>
+                <h4> 老虎機/電子競技遊戲平台開發 - JAVA 平台(JSP)</h4>
+                <h3>Bule Star Co., Ltd.</h3>
+                <h4> IOS&Android&PHP 手機端遊戲彩票平台開發</h4>
+                <p><a href="http://www.1hz77.com/intro.html" target="_blank">公司網站 &raquo;</a></p>
+
+                <li>台灣 – 3年</li>
+                <p>2013,Mar to 2016,Otc</p>
+                <h3>HERAN Smart TV(iOS & Android)</h3>
+                <h4>(1)修改及維護 GoogleTV。</h4>
+                <h4>(2)與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵 拉專區、數位學習王 專區)。</h4>
+                <h4>(3)開發手機、平板與電視互動的廣告機功能(已在上海、 全台各地康是美、小三 美日、屈臣氏，上架)。</h4>
+                <h4>(4)物聯網開發(IoT)，整合禾聯電視、 冰箱、冷氣、風扇等小家電智慧整合。</h4>
+                <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257" target="_blank">公司網站
+                        &raquo;</a></p>
             </ul>
         </div>
-        <!--end navigation-->
+        <div id="conten4">
+            <h3>Skills</h3>
 
-        <img id="imagem" src="images/bg_1.jpg" alt="Business"/>
-    </div>
+            <div id="frontend">
+                <h3>前端</h3>
+                <ul>
+                    <li>Flutter</li>
+                    <li>Kotlin</li>
+                    <li>Object-C</li>
+                </ul>
+            </div>
+            <div id="backend">
+                <h3>後端</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>JAVA</li>
+                </ul>
+            </div>
+            <div id="a_little">
+                <h3>數據庫</h3>
+                <ul>
+                    <li>MySql</li>
+                </ul>
+            </div>
+        </div>
 
-    <div id="conten1">
-        <h3>About me</h3>
-        <h4>Name : Ted Hsu</h4>
-        <h4>Year : 33</h4>
-        <h4>IT Work EXP : Android 11yr, iOS 7yr, PHP 4yr, MySql 4yr, JAVA 2yr</h4>
-        <h4>Language : English & Japanese ( JLPT : N3) </h4>
-        <h4>Nation : Taiwan</h4>
-        <h4>Location : Taiwan</h4>
-        <h4>Document download：
-        <a href="./file/Ted_CVzh.pdf" download="Ted_CVzh_2021.pdf">
-            <img border="0" src="images/download.png" alt="ted_pdf">
-        </a>
-        </h4>
+        <div id="myproject">
+            <h3>Side Project</h3>
+            <ul class="stage">
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>台灣吃喝玩樂</h1>
+                                <span class="year">2023</span>
+                                <span class="rating">iOS&Android</span>
+                                <<span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E5%90%83%E5%96%9D%E7%8E%A9%E6%A8%82%E5%9C%B0%E5%9C%96/id6446348643"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href="https://play.google.com/store/apps/details?id=com.meetstudio.event"
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                    </span>
+                            </header>
+                            <p>台灣吃喝玩樂地圖<br>
+                                使用者可以透過地圖定位或搜尋功能找到周邊的餐廳、景點、活動等資訊，並查看詳細資料如票價、開放時間、停車位置等。
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-        <ul class="s2b_col" id="s2b_col">
-            <li></li>
-        </ul>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#s2b_col").small2big({
-                    s2bRadius : 170, // 图片被放大时的圆形外框的半径
-                    s2bColLiRowMargin : -10, // 每个圆形之间的距离
-                    s2bLiBorderColor : "#000" // 圆形外框颜色
-                    // s2bLiAlign : "V" 图片竖排
-                }).initS2bCol().addS2bFunction();
-            });
-        </script>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>問口罩</h1>
+                                <span class="year">2021</span>
+                                <span class="rating">Android</span>
+                                <<span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://play.google.com/store/apps/details?id=tw.goodjob.askfacemaskapp"
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                    </span>
+                            </header>
+                            <p>透過本 App 可便捷的查詢台灣各地藥事機構<br>
+                                1. 透過輸入藥局名稱方式直接查詢藥事機構的口罩或家用快篩試劑剩餘數量。
+                                2. 也可透過地圖分區找尋藥事機構並查詢的口罩或家用快篩試劑剩餘數量。
+                                3. 查看 "衛服部" 發布之有關最新新聞消息。
+                                4. 直接撥打 1919 諮詢口罩實名制資訊諮詢。
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-    </div>
-    <div id="conten2">
-        <h3>Eduction</h3>
-        <h4 class="image">國立臺灣師範大學資訊工程研究所 <p>2012年1月(畢)
-            <a href="http://w1.csie.ntnu.edu.tw/" target="_blank">學校網站 &raquo;</a></p></h4><br>
-    </div>
-    <div id="conten3">
-        <h3>Career</h3>
-        <ul>
-            <li>台灣 - 3年</li>
-            <p>2019,March until now </p>
-            <h3>Fortunate International Information Co., Ltd.</h3>
-            <h4>    IOS&Android&PHP 手機端遊戲彩票平台開發</h4>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>NS Switch比價神器</h1>
+                                <span class="year">2020-6</span>
+                                <span class="rating">iOS&Android</span>
+                                <span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://apps.apple.com/tw/app/nswitch%E6%AF%94%E5%83%B9%E7%A5%9E%E5%99%A8-%E9%9D%9E%E5%AE%98%E6%96%B9/id1470342645"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href=https://play.google.com/store/apps/details?id=com.meetstudio.nsshop&hl=zh_TW&gl=US
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                </span>
+                            </header>
+                            <p>ptt鄉民強推，Switch玩家必下載的神器APP<br>
+                                提供Nintendo Switch的玩家更方便的遊戲報價系統，主要功能有：
+                                1.會員系統（Firebase）
+                                2.價格追蹤（PHP爬蟲爬官網）
+                                3.推播系統（Firebase）
+                                4.內置Facebook廣告or Google廣告
+                                5.我的最愛功能
+                                6.內砍網頁機制
+                                7.獎勵回饋機制
+                                8.爬蟲自動化( crontab )
+                                9.使用crontab做自動化git更新資料等</p>
+                        </div>
+                    </div>
+                </li>
 
-            <p><a href="http://fortunateinfo.com/" target="_blank">公司網站 &raquo;</a></p>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>乾杯超市</h1>
+                                <span class="year">2020-7</span>
+                                <span class="rating">HTML</span>
+                                <span class="duration"></span><br>
+                                <a class="new_a" href=https://www.kanpai-mart.com.tw/ target="_blank">Web-Site
+                                    &raquo;</a>
+                            </header>
+                            <p>乾杯公司合作電商網站:<br>
+                                1.Shopline系統開發製作
+                                2.金流串接（綠界）
+                                3.網頁切版
+                                4,GA製作
+                                5.SEO開發等。
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-            <li>菲律賓 - 4年</li>
-            <p>2015,Otc until now </p>
-            <h3>Syno Co., Ltd.</h3>
-            <h4>    老虎機/電子競技遊戲平台開發 - JAVA 平台(JSP)</h4>
-            <h3>Bule Star Co., Ltd.</h3>
-            <h4>    IOS&Android&PHP 手機端遊戲彩票平台開發</h4>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>媽媽百寶箱</h1>
+                                <span class="year">2015-9</span>
+                                <span class="rating">iOS&Android</span>
+                                <span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                </span>
+                            </header>
+                            <p>台灣萬人使用率高媽媽寶寶BLOG合作<br>
+                                書籍app的商業購買系統，主要團隊有網頁、後台PHP、前台IOS、Android，
+                                主要負責撰寫Android，此APP的特色串接後台(JSON)
+                                會員系統、Google的內購系統(In-app billing)、Vungle的影音
+                                廣告SDK導入、Google廣告(Admob)、FB SDK串接會員系統、WebView的JavaScript互動設定、等。</p>
+                        </div>
+                    </div>
+                </li>
 
-            <p><a href="http://www.1hz77.com/intro.html" target="_blank">公司網站 &raquo;</a></p>
 
-            <li>台灣 – 4年</li>
-            <p>2012,Mar to 2015,Otc</p>
-            <h3>HERAN Smart TV(iOS & Android)</h3>
-            <h4>(1)修改及維護 GoogleTV。</h4>
-            <h4>(2)與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵 拉專區、數位學習王 專區)。</h4>
-            <h4>(3)開發手機、平板與電視互動的廣告機功能(已在上海、 全台各地康是美、小三 美日、屈臣氏，上架)。</h4>
-            <h4>(4)物聯網開發(IoT)，整合禾聯電視、 冰箱、冷氣、風扇等小家電智慧整合。</h4>
 
-            <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257" target="_blank">公司網站 &raquo;</a></p>
-        </ul>
-    </div>
-    <div id="conten4">
-        <h3>Skills</h3>
-
-        <div id="frontend">
-            <h3>前端</h3>
-            <ul>
-                <li>Object-C</li>
-                <li>Android</li>
-                <li>HTML5/JSP/JavaScript</li>
             </ul>
         </div>
-        <div id="backend">
-            <h3>後端</h3>
-            <ul>
-                <li>PHP</li>
-                <li>JAVA</li>
-            </ul>
+
+        <div id="conten7">
+            <h3>Autobiography</h3>
+            <h4>
+                &nbsp;&nbsp;大家好，我叫Ted Hsu，來自台灣。我有豐富的軟體開發經驗，包括11年的Android開發經驗、1年的Flutter開發經驗、
+                4年的iOS開發經驗、2年的PHP開發經驗和2年的Java開發經驗。
+                在我的職業生涯中，我曾在多個公司工作過，包括開發Google Pixel Watch、Pixel Phone、成人影音社交軟體、手機端遊戲彩票平台、老虎機/電子競技遊戲平台和物聯網開發等領域。
+                我也曾與客戶合作開發過人臉辨識、潘朵拉專區和數位學習王等項目，並開發了手機、平板與電視互動的廣告機功能，
+                已在上海、全台各地康是美、小三美日、屈臣氏等地上架。
+                除了我的技術能力，我也非常注重團隊合作和溝通。我相信透過互相交流和協調，團隊可以更有效地完成工作和達成目標。
+                因此，我非常期待能加入您的團隊，一同合作並貢獻我的技能和經驗。
+                謝謝您花時間閱讀我的自我介紹，期待有機會與您進一步交流！<br>
+                <img src="img/bg_2.jpg" align="right">
+            </h4>
         </div>
-        <div id="a_little">
-            <h3>數據庫</h3>
-            <ul>
-                <li>MySql</li>
-            </ul>
-        </div>
-    </div>
-    <!--<div id="conten5">-->
-    <!--<h3>My Work</h3>-->
-    <!--<ul>-->
-    <!--<h3>HERAN Smart TV</h3>-->
-    <!--<li>修改及維護GoogleTV</li>-->
-    <!--<li>與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵拉專區、數位學習王專區)</li>-->
-    <!--<li>開發手機、平板與電視互動的廣告機功能(已在上海、全台各地康是美、小三美日、屈臣氏，上架)</li>-->
-    <!--<li>物聯網開發(IoT)，整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合</li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <div id="teamcont" >
-        <h3>My Work</h3>
-        <div style="width:900px; text-align:center">
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project1">
-                        <img class="row1" src="img/phone_1.jpg" >
-                        <div class="pname">線上博弈</div>
-                        <div class="pinfo">彩票＆電子競技</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> 主要協助開發線上博弈手機端介面app之使用及JAVA後端JSP前端電子競技開發,包含遊戲對接,第三方金流等</h5><br>
-                        <img src="img/phone_7.jpg"><img src="img/phone_2.jpg"><br>
-                        <img src="img/phone_3.jpg"><img src="img/phone_4.jpg"><br>
-                        <img src="img/phone_5.jpg"><img src="img/phone_6.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project1">
-                        <img class="row1" src="img/img01.jpg" >
-                        <div class="pname">Android TV</div>
-                        <div class="pinfo">開發</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> Heran主要有3台AndroidTV機種，版本分別為4.2、4.4、5.0(4K)</h5><br>
-                        <h5>目前主要開發<a href="https://www.youtube.com/watch?v=cQPyABBXZDQ" target="_blank">Heran4K</a>機種(Android5.0)<br>
-                            及手機遠端遙控電視開發<br>(區網用DLNA外網用IM的SDK)</h5><br>
-                        <img src="img/img08.jpg"><img src="img/img07.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project2">
-                        <img class="row1" src="img/img12.jpg" >
-                        <div class="pname">Android TV</div>
-                        <div class="pinfo">客戶合作專案</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        目前已有許多和客戶合作的經驗<br>
-                        <h5>2014-12 <a href="http://www.pandoratv.tw/" target="_blank">潘朵啦AV影城</a></h5><br>
-                        <img src="img/img04.jpg"><br>
-                        <h5>2015-06 <a href="http://www.fashionguide.com.tw/" target="_blank">FashionGuide</a>
-                            與<a href=" http://www.1028loveu.com/" target="_blank">1028美妝</a></h5><br>
-                        <img src="img/img06.jpg"><br>
-                        <h5>2015-10 燦坤特別機種</h5><br>
-                        <h5>2015-12 <a href="https://www.study123.com.tw/" target="_blank">數位學習王</a></h5><br>
-                        <img src="img/img09.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project3">
-                        <img class="row1" src="img/1028.jpg" >
-                        <div class="pname">智慧連網廣告機功能</div>
-                        <div class="pinfo">開發手機、平板與電視互動</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> 利用AndroidTV與PHP的Json串接，建置後台資料上傳到各地電視機上
-                            ，目前已在上海、及全台各地康是美、小三美日、屈臣氏，上架</h5><br>
-                        <img src="img/img02.jpg"><img src="img/img06.jpg"><br>
-                        <h5> 還可以透過手機&平板Socket傳輸，做互動遊戲，存取大數據，可以知道使用者的操作行為之資訊</h5><br>
-                        <img src="img/img10.jpg"><br>
-                        <h5>目前正在研發人臉辨識功能，能夠計算人流數量，注視時間、人數等，並上傳到後台做大數據處理</h5><br>
-                        <img src="img/img11.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project4">
-                        <img class="row1" src="img/mqtt.png" >
-                        <div class="pname">物聯網開發(IoT)</div>
-                        <div class="pinfo">小家電智慧整合</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合，目標2016年底上市，現在透過MQTT的方式架在RTOS上
-                        ，並與後台PHP端及Android做串接</div>
-                    <img src="img/img02.jpg"><img src="img/img03.jpg"><br>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-
-            <div id="pichuan">
-                <div class="partener">
-                    <img class="row1" src="img/phone_1.jpg" >
-                    <div class="pname">彩票＆電子競技</div>
-                    <div class="pinfo">iOS&Android</div>
-                    <div class="pinfo">JAVA&PHP&MySql</div>
-                </div>
-                <div class="partener">
-                    <img class="row1" src="img/img01.jpg" >
-                    <div class="pname">開發GoogleTV</div>
-                    <div class="pinfo">iOS&Android&PHP</div>
-                </div>
-                <div  class="partener"><img class="row1" src="img/img12.jpg" >
-                    <div class="pname">開發電視專案</div>
-                    <div class="pinfo">Android&PHP</div>
-                </div>
-                <div  class="partener"><img class="row1" src="img/1028.jpg" >
-                    <div class="pname">電視互動的廣告機功能</div>
-                    <div class="pinfo">Android&PHP</div>
-                </div>
-                <div class="partener"><img class="row1" src="img/mqtt.png" >
-                    <div class="pname">物聯網開發(IoT)</div>
-                    <div class="pinfo">Android&PHP&C</div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-        </div>
+        <div style="clear:both"></div>
     </div>
 
-    <div id="myproject">
-        <h3>My Project</h3>
-        <ul class="stage">
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>NS Switch比價神器</h1>
-                            <span class="year">2020-6</span>
-                            <span class="rating">iOS&Android</span>
-                            <span class="duration"><br>
-                                <a class="new_a" href="https://apps.apple.com/tw/app/nswitch%E6%AF%94%E5%83%B9%E7%A5%9E%E5%99%A8-%E9%9D%9E%E5%AE%98%E6%96%B9/id1470342645" target="_blank">iOS
-                                    Store &raquo;</a><br>
-                                <a class="new_a" href=https://play.google.com/store/apps/details?id=com.meetstudio.nsshop&hl=zh_TW&gl=US target="_blank">Google
-                                    Play &raquo;</a>
-                            </span>
-                        </header>
-                        <p>ptt鄉民強推，Switch玩家必下載的神器APP<br>
-                            提供Nintendo Switch的玩家更方便的遊戲報價系統，主要功能有：
-                            1.會員系統（Firebase）
-                            2.價格追蹤（PHP爬蟲爬官網）
-                            3.推播系統（Firebase）
-                            4.內置Facebook廣告or Google廣告
-                            5.我的最愛功能
-                            6.內砍網頁機制
-                            7.獎勵回饋機制
-                            8.爬蟲自動化( crontab )
-                            9.使用crontab做自動化git更新資料等</p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>乾杯超市</h1>
-                            <span class="year">2020-7</span>
-                            <span class="rating">HTML</span>
-                            <span class="duration"></span><br>
-                            <a class="new_a" href=https://www.kanpai-mart.com.tw/ target="_blank">Web-Site &raquo;</a>
-                        </header>
-                        <p>乾杯公司合作電商網站:<br>
-                            1.Shopline系統開發製作
-                            2.金流串接（綠界）
-                            3.網頁切版
-                            4,GA製作
-                            5.SEO開發等。
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>媽媽百寶箱</h1>
-                            <span class="year">2015-9</span>
-                            <span class="rating">iOS&Android</span>
-                            <span class="duration"><br>
-                                <a class="new_a" href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8" target="_blank">iOS
-                                    Store &raquo;</a><br>
-                                <a class="new_a" href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod target="_blank">Google
-                                    Play &raquo;</a>
-                            </span>
-                        </header>
-                        <p>台灣萬人使用率高媽媽寶寶BLOG合作<br>
-                            書籍app的商業購買系統，主要團隊有網頁、後台PHP、前台IOS、Android，
-                            主要負責撰寫Android，此APP的特色串接後台(JSON)
-                            會員系統、Google的內購系統(In-app billing)、Vungle的影音
-                            廣告SDK導入、Google廣告(Admob)、FB SDK串接會員系統、WebView的JavaScript互動設定、等。</p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>GCM Chat</h1>
-                            <span class="year">未上架</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
-                        </header>
-                        <p>GCM的聊天系統:<br>
-                            利用Google-GCM做的公司、部門專屬的聊天系統<br>
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>視訊對話</h1>
-                            <span class="year">未上架</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
-                        </header>
-                        <p>手機視訊系統:<br>
-                            利用Google的SDK-NSD把裝置的ip顯示在同網域的AP上面，之後利用Socket做視訊溝通<br>
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>日達汽車</h1>
-                            <span class="year">2015-5</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <a class="new_a" href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar target="_blank">Google
-                                Play &raquo;</a>
-                        </header>
-                        <p>客戶邀約案件內容:<br>
-                            日達汽車修車廠的客製化APP，主要是配合GoogleMap導航系統、及GCM(聊天系統)。
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-        </ul>
+    <!--end wrapper-->
+    <div id="footer">
+        <p>&copy; 2021 Valid CSS &amp; XHTML &amp; Jquery &amp; javascript &amp; Ajax. Design by
+            <a href="http://tw.yahoo.com" title="Chama Digital">Ted Hsu</a> | Power by Meetstudio.
+            <a href="http://tw.yahoo.com" target="_blank">MeetYouStudio</a>
+        </p>
     </div>
-
-    <div id="conten7">
-        <h3>Autobiography</h3>
-        <h4>
-            &nbsp;&nbsp;雖然個性上面有些許害羞，但對工作上的事情會非常的熱愛，認真，之前去過很過地方工作，也認識不同國籍的人，大家的生長背景都有所不同，有些原本也不是人生上的規劃，但是生命就是會充滿許多無限的可能，挑戰自己，享受當下，感受生活～<br>
-            <img src="img/bg_2.jpg" align="right" >
-        </h4>
     </div>
-
-    <!--<div id="quote">-->
-    <!--<p><span class="quote">&ldquo; </span>Etiam vehicula, augue eu ultricies dictum, orci nisi suscipit sem,-->
-    <!--nec sollicitudin neque est ac massa. Phasellus elementum nibh vel odio. Proin orci nulla, viverra-->
-    <!--tempus, pharetra ut, varius nec, justo. Donec euismod molestie erat. Nulla lobortis bibendum magna.-->
-    <!--<span class="quote">&ldquo;</span></p>-->
-
-    <!--<p class="testimonial">Lorem Ipsum - Client Testimonial</p>-->
-    <!--</div>-->
-    <!--end content-->
-    <div style="clear:both"></div>
-</div>
-
-<!--end wrapper-->
-<div id="footer"><p>&copy; 2021 Valid CSS &amp; XHTML &amp; Jquery &amp; javascript &amp; Ajax. Design by
-    <a href="http://tw.yahoo.com" title="Chama Digital">Ted Hsu</a> | Power by Meetstudio.
-    <a href="http://tw.yahoo.com" target="_blank">MeetYouStudio</a></p>
-</div>
-
-<!--<div id="chat_f1">-->
-    <!--<div id="chat_f1_main">-->
-        <!--<div id="close"></div>-->
-        <!--&lt;!&ndash;<a title="点击咨询在线客服" href="http://www.lanrentuku.com" class="a_kf"></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a title="点击咨询售后" href="http://www.lanrentuku.com" class="a_sh"></a>&ndash;&gt;-->
-    <!--</div>-->
-    <!--<div class="chat_f1_expr">-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="GitHup" href="https://github.com/qn5566" target="_blank">GitHup</a>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="Stackoverflow" href="https://github.com/qn5566" target="_blank">Stackoverflow</a>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="與我聯繫">與我聯繫</a>-->
-
-                <!--<div class="detail">-->
-                    <!--<div class="border"></div>-->
-                    <!--<div class="mt"><strong>信箱：</strong>-->
-                        <!--pkwelly@hotmail.com-->
-                    <!--</div>-->
-                    <!--<div class="mt"><strong>電話：</strong>+639274016820</div>-->
-                    <!--<div class="mt mt5">-->
-                        <!--<a class="send_sms"></a>&emsp;-->
-                        <!--<a class="ovl">進入首頁&raquo;</a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div id="chat_f1_bottom"></div>-->
-<!--</div>-->
-<!--<div id="chat_f2" style="display:none;">與我聯繫</div>-->
-<!--<div>-->
-</div>
 </body>
+
 </html>
-
-<!--<div id="contacts">-->
-<!--<h2>Contact Us</h2>-->
-
-<!--<p><span class="green">Name:</span> Ted Hsu</p>-->
-
-<!--<p><span class="green">Phone:</span> 0955245522</p>-->
-
-<!--<p><span class="green">Email:</span><a href="index.html">pkwelly@hotmail.com</a></p>-->
-<!--</div>-->
-

@@ -5,7 +5,7 @@ $(function () {
 
     $("#goTop").click(function () {
 
-        $("html,body").animate({scrollTop: 0}, 1200);
+        $("html,body").animate({scrollTop: 0}, 1000);
 
         return false;
 
@@ -13,7 +13,7 @@ $(function () {
     });
     $("#About").click(function () {
 
-        $("html,body").animate({scrollTop: 400}, 1200);
+        $("html,body").animate({scrollTop: 400}, 1000);
 
         return false;
 
@@ -21,7 +21,7 @@ $(function () {
     });
     $("#Career").click(function () {
 
-        $("html,body").animate({scrollTop: 850}, 1400);
+        $("html,body").animate({scrollTop: 850}, 1000);
 
         return false;
 
@@ -29,7 +29,7 @@ $(function () {
     });
     $("#Skills").click(function () {
 
-        $("html,body").animate({scrollTop: 1420}, 1600);
+        $("html,body").animate({scrollTop: 1920}, 1000);
 
         return false;
 
@@ -37,7 +37,7 @@ $(function () {
     });
     $("#Works").click(function () {
 
-        $("html,body").animate({scrollTop: 1680}, 1800);
+        $("html,body").animate({scrollTop: 1680}, 1000);
 
         return false;
 
@@ -45,7 +45,7 @@ $(function () {
     });
     $("#Project").click(function () {
 
-        $("html,body").animate({scrollTop: 2580}, 2000);
+        $("html,body").animate({scrollTop: 2180}, 1000);
 
         return false;
 
@@ -53,7 +53,7 @@ $(function () {
     });
     $("#Autobiography").click(function () {
 
-        $("html,body").animate({scrollTop: 2880}, 2200);
+        $("html,body").animate({scrollTop: 2880}, 1000);
 
         return false;
 

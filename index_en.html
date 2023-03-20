@@ -1,469 +1,335 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Ted's Resume</title>
-    <!--<link rel="stylesheet" type="text/css" href="css/normalize.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="css/demo.css" />-->
-    <link type="text/css" href="css/lrtk.css" rel="stylesheet"/>
-    <link rel="stylesheet" type="text/css" href="css/component.css"/>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link type="text/css" href="css/lrtk.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="css/small2big.css"/>
+    <link type="text/css" rel="stylesheet" href="css/small2big.css" />
     <script type="application/javascript" src="js/jquery.min.js"></script>
     <script type="application/javascript" src="js/jquery.mgang.small2big.js"></script>
     <script type="text/javascript" src="js/001.js"></script>
     <script type="text/javascript" src="js/js.js"></script>
     <script type="text/javascript" src="js/Chart.js"></script>
     <script type="text/javascript" src="js/jquery.movingboxes.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-57868222-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-57868222-4');
-</script>
 </head>
 
 <body>
-<div id="wrapper">
-    <div id="header">
+    <div id="wrapper">
+        <div id="header">
 
-        <h1><a href="index.html" title="home">RESUME
-        </a></h1>
+            <h1><a href="index.html" title="home">RESUME
+                </a></h1>
 
-        <div id="navigation">
+            <div id="navigation">
+                <ul>
+                    <li><a title="About" id="About">About</a></li>
+                    <li><a title="Career" id="Career">Career</a></li>
+                    <li><a title="Skills" id="Skills">Skills</a></li>
+                    <li><a title="Project" id="Project">Project</a></li>
+                    <li><a title="Autobiography" id="Autobiography">Autobiography</a></li>
+                </ul>
+            </div>
+            <!--end navigation-->
+            <h2 id="slogan">KEEP IT UP <span>WAY TO GO</span>STICK TO IT!</h2>
+
+            <img id="imagem" src="images/bg_1.jpg" alt="Business" />
+        </div>
+
+        <div id="conten1">
+            <h3>About me</h3>
+            <h4>Name : Ted Hsu</h4>
+            <h4>Year : 36</h4>
+            <h4>IT Work EXP : Android 11yr, Flutter 1yr, iOS 4yr,
+                PHP 2yr, MySql 4yr, JAVA 2yr</h4>
+            <h4>Language : English & Japanese ( JLPT : N3) </h4>
+            <h4>Nation : Taiwan</h4>
+            <h4>Location : Philippines</h4>
+            <h4>Document download：
+                <a href="./file/Ted_CVen.pdf" download="HSU_CVen.pdf">
+                    <img border="0" src="images/download.png" alt="ted_pdf">
+                </a>
+            </h4>
+
+            <ul class="s2b_col" id="s2b_col">
+                <li></li>
+            </ul>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#s2b_col").small2big({
+                        s2bRadius: 170, // 图片被放大时的圆形外框的半径
+                        s2bColLiRowMargin: -10, // 每个圆形之间的距离
+                        s2bLiBorderColor: "#000" // 圆形外框颜色
+                        // s2bLiAlign : "V" 图片竖排
+                    }).initS2bCol().addS2bFunction();
+                });
+            </script>
+
+        </div>
+        <div id="conten2">
+            <h3>Eduction</h3>
+            <h4 class="image">National Department of Computer Science, Taiwan Normal University <p> 1 / 2012
+                    (graduation)
+                    <a href="http://w1.csie.ntnu.edu.tw/en/" target="_blank">School Website &raquo;</a>
+                </p>
+            </h4><br>
+        </div>
+        <div id="conten3">
+            <h3>Career</h3>
             <ul>
-                <li><a title="About" id="About">About</a></li>
-                <li><a title="Career" id="Career">Career</a></li>
-                <li><a title="Skills" id="Skills">Skills</a></li>
-                <li><a title="Works" id="Works">Works</a></li>
-                <li><a title="Project" id="Project">Project</a></li>
-                <li><a title="Autobiography" id="Autobiography">Autobiography</a></li>
+                <li>Taiwan work</li>
+                <p>2019,Mar until now </p>
+                <h3>宏博網路科技有限公司 (太子集團) - working</h3>
+                <h4> Adult audio-visual social software development</h4>
+                <p><a href="https://mod.run/#/" target="_blank">product site &raquo;</a></p>
+                <h3>Google - Contract</h3>
+                <h4> Pixel Watch development</h4>
+                <p><a href="https://store.google.com/tw/category/watches/" target="_blank">product site &raquo;</a></p>
+                <h3>Fortunate International Information Co., Ltd.</h3>
+                <h4> IOS&Android&PHP Mobile game lottery platform development</h4>
+                <p><a href="http://fortunateinfo.com/" target="_blank">product site &raquo;</a></p>
+
+                <li>Philippines Experience - 3 years</li>
+                <p>2016,Otc to 2019,Jan </p>
+                <h3>Syno Co., Ltd.</h3>
+                <h4>Slot machine / e-sports game platform development - JAVA platform (JSP)</h4>
+                <h3>Bule Star Co., Ltd.</h3>
+                <h4>IOS & Android mobile game lottery platform development</h4>
+
+                <p><a href="http://www.1hz77.com/intro.html" target="_blank">Company website &raquo;</a></p>
+
+                <li>Taiwan work experience - 4 years</li>
+                <p>2013,Mar to 2016,Otc</p>
+                <h3>HERAN Smart TV(iOS & Android)</h3>
+                <h4> (1) Modify and maintain GoogleTV. </h4>
+                <h4> (2) Develop projects on TV (face recognition (Android), Pandora, Digital Learning Zone) with
+                    clients. </h4>
+                <h4> (3) The development of mobile phone, tablet and television interactive advertising function
+                    (already in Shanghai, the whole Taiwan Kang is the United States, the United States and Japan,
+                    Watsons, shelves). </h4>
+                <h4> (4) Internet of Things Development (IoT), which integrates the wisdom integration of Wo TV,
+                    refrigerator, air conditioner, fan and other small appliances. </h4>
+
+                <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257" target="_blank">Company
+                        website &raquo;</a></p>
             </ul>
         </div>
-        <!--end navigation-->
-        <h2 id="slogan">KEEP IT UP <span>WAY TO GO</span>STICK TO IT!</h2>
+        <div id="conten4">
+            <h3>Skills</h3>
 
-        <img id="imagem" src="images/bg_1.jpg" alt="Business"/>
-    </div>
+            <div id="frontend">
+                <h3>Front End</h3>
+                <ul>
+                    <li>Flutter</li>
+                    <li>Kotlin</li>
+                    <li>Object-C</li>
+                </ul>
+            </div>
+            <div id="backend">
+                <h3>Back End</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>JAVA</li>
+                </ul>
+            </div>
+            <div id="a_little">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySql</li>
+                </ul>
+            </div>
+        </div>
 
-    <div id="conten1">
-        <h3>About me</h3>
-        <h4>Name : Ted Hsu</h4>
-        <h4>Year : 30</h4>
-        <h4>IT Work EXP : Android 4yr iOS 2yr PHP 2yr JAVA 1yr</h4>
-        <h4>Language : English & Japanese ( JLPT : N3) </h4>
-        <h4>Nation : Taiwan</h4>
-        <h4>Location : Philippines</h4>
-        <h4>Document download：
-            <a href="./file/Ted_CVen.pdf" download="Ted_CVen.pdf">
-                <img border="0" src="images/download.png" alt="ted_pdf">
-            </a>
-        </h4>
+        <div id="myproject">
+            <h3>My Project</h3>
+            <ul class="stage">
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>Taiwan eating, drinking and having fun</h1>
+                                <span class="year">2023</span>
+                                <span class="rating">iOS&Android</span>
+                                <<span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E5%90%83%E5%96%9D%E7%8E%A9%E6%A8%82%E5%9C%B0%E5%9C%96/id6446348643"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href="https://play.google.com/store/apps/details?id=com.meetstudio.event"
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                    </span>
+                            </header>
+                            <p>Map of eating, drinking and having fun in Taiwan<br>
+                                Users can use the map location or search function to find information on surrounding
+                                restaurants, attractions, activities, etc., and view detailed information such as ticket
+                                prices, opening hours, parking locations, etc.
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-        <ul class="s2b_col" id="s2b_col">
-            <li></li>
-        </ul>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#s2b_col").small2big({
-                    s2bRadius : 170, // 图片被放大时的圆形外框的半径
-                    s2bColLiRowMargin : -10, // 每个圆形之间的距离
-                    s2bLiBorderColor : "#000" // 圆形外框颜色
-                    // s2bLiAlign : "V" 图片竖排
-                }).initS2bCol().addS2bFunction();
-            });
-        </script>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>Ask mask</h1>
+                                <span class="year">2021</span>
+                                <span class="rating">Android</span>
+                                <<span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://play.google.com/store/apps/details?id=tw.goodjob.askfacemaskapp"
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                    </span>
+                            </header>
+                            <p>Through this app, you can easily search for pharmaceutical institutions in Taiwan<br>
+                                1. By entering the name of the pharmacy, you can directly check the remaining quantity
+                                of masks or household rapid screening reagents in the pharmacy.
+                                2. You can also find pharmaceutical institutions and inquire about the remaining
+                                quantity of masks or household rapid screening reagents through the map division.
+                                3. View the latest news released by the "Health Service Department".
+                                4. Dial 1919 directly for information on the real-name system for masks.
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-    </div>
-    <div id="conten2">
-        <h3>Eduction</h3>
-        <h4 class="image">National Department of Computer Science, Taiwan Normal University <p> 1 / 2012 (graduation)
-            <a href="http://w1.csie.ntnu.edu.tw/en/" target="_blank">School Website &raquo;</a></p></h4><br>
-    </div>
-    <div id="conten3">
-        <h3>Career</h3>
-        <ul>
-            <li>Philippines Experience - 3 years</li>
-            <p>2015,Otc until now </p>
-            <h3>Syno Co., Ltd.</h3>
-            <h4>Slot machine / e-sports game platform development - JAVA platform (JSP)</h4>
-            <h3>Bule Star Co., Ltd.</h3>
-            <h4>IOS & Android mobile game lottery platform development</h4>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>NS Switch - Price comparison</h1>
+                                <span class="year">2020-6</span>
+                                <span class="rating">iOS&Android</span>
+                                <span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://apps.apple.com/tw/app/nswitch%E6%AF%94%E5%83%B9%E7%A5%9E%E5%99%A8-%E9%9D%9E%E5%AE%98%E6%96%B9/id1470342645"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href=https://play.google.com/store/apps/details?id=com.meetstudio.nsshop&hl=zh_TW&gl=US
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                </span>
+                            </header>
+                            <p>Strongly recommended by the villagers of ptt, an artifact app that Switch players must
+                                download<br>
+                                Provide a more convenient game quotation system for Nintendo Switch players. The main
+                                functions are:
+                                1. Membership system (Firebase)
+                                2. Price tracking (PHP crawler crawls the official website)
+                                3. Push system (Firebase)
+                                4. Built-in Facebook ads or Google ads
+                                5. My favorite function
+                                6. Internal hacking mechanism
+                                7. Reward mechanism
+                                8. Crawler automation ( crontab )
+                                9. Use crontab to automate git update data, etc.</p>
+                        </div>
+                    </div>
+                </li>
 
-            <p><a href="http://www.1hz77.com/intro.html" target="_blank">Company website &raquo;</a></p>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>kanpai-mart</h1>
+                                <span class="year">2020-7</span>
+                                <span class="rating">HTML</span>
+                                <span class="duration"></span><br>
+                                <a class="new_a" href=https://www.kanpai-mart.com.tw/ target="_blank">Web-Site
+                                    &raquo;</a>
+                            </header>
+                            <p>kanpai company cooperative e-commerce website:<br>
+                                1.Shopline system development and production
+                                2. Gold Stream Connection (Green World)
+                                3. Web page cutting
+                                4. made by GA
+                                5. SEO development, etc.
+                            </p>
+                        </div>
+                    </div>
+                </li>
 
-            <li>Taiwan work experience - 4 years</li>
-            <p>2012,Mar to 2015,Otc</p>
-            <h3>HERAN Smart TV(iOS & Android)</h3>
-            <h4> (1) Modify and maintain GoogleTV. </h4>
-            <h4> (2) Develop projects on TV (face recognition (Android), Pandora, Digital Learning Zone) with clients. </h4>
-            <h4> (3) The development of mobile phone, tablet and television interactive advertising function (already in Shanghai, the whole Taiwan Kang is the United States, the United States and Japan, Watsons, shelves). </h4>
-            <h4> (4) Internet of Things Development (IoT), which integrates the wisdom integration of Wo TV, refrigerator, air conditioner, fan and other small appliances. </h4>
+                <li class="scene">
+                    <div class="movie" onclick="return true">
+                        <div class="poster"></div>
+                        <div class="info">
+                            <header>
+                                <h1>Mombaby</h1>
+                                <span class="year">2015-9</span>
+                                <span class="rating">iOS&Android</span>
+                                <span class="duration"><br>
+                                    <a class="new_a"
+                                        href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8"
+                                        target="_blank">iOS
+                                        Store &raquo;</a><br>
+                                    <a class="new_a"
+                                        href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod
+                                        target="_blank">Google
+                                        Play &raquo;</a>
+                                </span>
+                            </header>
+                            <p>Taiwan million people use high mother baby BLOG cooperation<br>
+                                Books app commercial purchase system, the main team has web pages, background PHP, front
+                                desk IOS, Android,
+                                Member system, Google's built-in system (In-app billing), Vungle video
+                                Advertising SDK import, Google ad (Admob), FB SDK series member system, etc.</p>
+                        </div>
+                    </div>
+                </li>
 
-            <p><a href="http://www.heran.com.tw/ProductDetail.aspx?id=PD20141218184257" target="_blank">Company website &raquo;</a></p>
-        </ul>
-    </div>
-    <div id="conten4">
-        <h3>Skills</h3>
-
-        <div id="frontend">
-            <h3>Front End</h3>
-            <ul>
-                <li>Object-C</li>
-                <li>Android</li>
-                <li>HTML5/JSP/JavaScript</li>
             </ul>
         </div>
-        <div id="backend">
-            <h3>Back End</h3>
-            <ul>
-                <li>PHP</li>
-                <li>JAVA</li>
-            </ul>
+
+        <div id="conten7">
+            <h3>Autobiography</h3>
+            <h4>
+                &nbsp;&nbsp; Hello! my name is Ted Hsu and I'm from Taiwan. I have extensive software
+                development experience,
+                including 11 years of Android development experience, 1 year of Flutter development experience,
+                4 years of iOS development experience, 2 years of PHP development experience, and 2 years of Java
+                development experience.
+                Throughout my career, I have worked in various companies, including developing for Google Pixel Watch,
+                Pixel Phone,
+                adult social media applications, mobile gaming lottery platforms, slot machine/eSports gaming platforms,
+                and IoT development.
+                I have also collaborated with clients to develop projects such as facial recognition, Pandora Zone, and
+                digital
+                learning king, and have developed interactive advertising machines for mobile phones, tablets, and
+                televisions
+                that have been deployed in stores such as Watsons, Cosmed, and SASA in Shanghai and all over Taiwan.
+                In addition to my technical abilities, I also value teamwork and communication. I believe that through
+                mutual
+                exchange and coordination, a team can work more effectively to complete tasks and achieve goals.
+                Therefore,
+                I am excited to join your team and contribute my skills and experience.
+                Thank you for taking the time to read my introduction, and I look forward to the opportunity to further
+                communicate with you!<br>
+                <img src="img/bg_2.jpg" align="right">
+            </h4>
         </div>
-        <div id="a_little">
-            <h3>Database</h3>
-            <ul>
-                <li>MySql</li>
-            </ul>
-        </div>
-    </div>
-    <!--<div id="conten5">-->
-    <!--<h3>My Work</h3>-->
-    <!--<ul>-->
-    <!--<h3>HERAN Smart TV</h3>-->
-    <!--<li>修改及維護GoogleTV</li>-->
-    <!--<li>與客戶串接開發電視上的專案(人臉辨識(Android)、潘朵拉專區、數位學習王專區)</li>-->
-    <!--<li>開發手機、平板與電視互動的廣告機功能(已在上海、全台各地康是美、小三美日、屈臣氏，上架)</li>-->
-    <!--<li>物聯網開發(IoT)，整合禾聯電視、冰箱、冷氣、風扇等小家電智慧整合</li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <div id="teamcont" >
-        <h3>My Work</h3>
-        <div style="width:900px; text-align:center">
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project1">
-                        <img class="row1" src="img/phone_1.jpg" >
-                        <div class="pname">Online gambling</div>
-                        <div class="pinfo">Lottery & eSports</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> Mainly to assist in the development of online gaming mobile terminal
-                            interface app and JAVA back-end JSP front-end e-sports development,
-                            including game docking, third-party gold flow, etc.</h5><br>
-                        <img src="img/phone_7.jpg"><img src="img/phone_2.jpg"><br>
-                        <img src="img/phone_3.jpg"><img src="img/phone_4.jpg"><br>
-                        <img src="img/phone_5.jpg"><img src="img/phone_6.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project1">
-                        <img class="row1" src="img/img01.jpg" >
-                        <div class="pname">Android TV</div>
-                        <div class="pinfo">Maintenance and development</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> Heran has many different GoogleTV models</h5><br>
-                        <h5>Main development and maintenance<a href="https://www.youtube.com/watch?v=cQPyABBXZDQ" target="_blank">Heran4K</a>(Android5.0)<br>
-                            And mobile remote control TV development<br>(Network with the DLNA external network with the IM SDK)</h5><br>
-                        <img src="img/img08.jpg"><img src="img/img07.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project2">
-                        <img class="row1" src="img/img12.jpg" >
-                        <div class="pname">Android TV</div>
-                        <div class="pinfo">Customers cooperation project</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        They have many experience with customers cooperation<br>
-                        <h5>2014-12 <a href="http://www.pandoratv.tw/" target="_blank">Pandora Move!</a></h5><br>
-                        <img src="img/img04.jpg"><br>
-                        <h5>2015-06 <a href="http://www.fashionguide.com.tw/" target="_blank">FashionGuide</a>
-                            and<a href=" http://www.1028loveu.com/" target="_blank">1028-Visual Therapy</a></h5><br>
-                        <img src="img/img06.jpg"><br>
-                        <h5>2015-10 Tsannkuen Co., Ltd.</h5><br>
-                        <h5>2015-12 <a href="https://www.study123.com.tw/" target="_blank">Study123</a></h5><br>
-                        <img src="img/img09.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project3">
-                        <img class="row1" src="img/1028.jpg" >
-                        <div class="pname">Online Advertising</div>
-                        <div class="pinfo">Develop mobile, tablet and TV</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        <h5> Using AndroidTV and PHP, build background data uploaded to the local advertising in Shanghai, and whole of Taiwan makeups store</h5><br>
-                        <img src="img/img02.jpg"><img src="img/img06.jpg"><br>
-                        <h5> But also through the mobile phone & tablet Socket transmission, do interactive games, access to large data, you can know the user's operational behavior of the information</h5><br>
-                        <img src="img/img10.jpg"><br>
-                        <h5>Is currently developing face recognition function, to calculate the number of people flow, watching time, the number of people, and upload to the background to do large data processing</h5><br>
-                        <img src="img/img11.jpg"><br>
-                    </div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-            <div class="parinforma cssshadow">
-                <div class="closebtn"></div>
-                <div class="showLeft">
-                    <div class="partener project4">
-                        <img class="row1" src="img/mqtt.png" >
-                        <div class="pname">IoT</div>
-                        <div class="pinfo">Appliances IoT</div>
-                    </div>
-                </div>
-                <div class="showRight">
-                    <div class="huncontent">
-                        Integrated Hearn TV, refrigerator, air-conditioning, fans and other small appliances wisdom integration, the end of the target market by 2016, now through the MQTT way in the RTOS, and with the background PHP and Android.</div>
-                    <img src="img/img02.jpg"><img src="img/img03.jpg"><br>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-
-
-            <div id="pichuan">
-                <div class="partener">
-                    <img class="row1" src="img/phone_1.jpg" >
-                    <div class="pname">Lottery & eSports</div>
-                    <div class="pinfo">iOS&Android&PHP&JAVA</div>
-                </div>
-                <div class="partener">
-                    <img class="row1" src="img/img01.jpg" >
-                    <div class="pname">GoogleTV</div>
-                    <div class="pinfo">Android&PHP</div>
-                </div>
-                <div  class="partener"><img class="row1" src="img/img12.jpg" >
-                    <div class="pname">Develop a TV project</div>
-                    <div class="pinfo">Android&PHP</div>
-                </div>
-                <div  class="partener"><img class="row1" src="img/1028.jpg" >
-                    <div class="pname">TV interactive advertising</div>
-                    <div class="pinfo">Android&PHP</div>
-                </div>
-                <div class="partener"><img class="row1" src="img/mqtt.png" >
-                    <div class="pname">IoT</div>
-                    <div class="pinfo">Android&PHP&C</div>
-                </div>
-                <div style="clear:both"></div>
-            </div>
-        </div>
+        <div style="clear:both"></div>
     </div>
 
-    <div id="myproject">
-        <h3>My Project</h3>
-        <ul class="stage">
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>Mombaby</h1>
-                            <span class="year">2015-9</span>
-                            <span class="rating">iOS&Android</span>
-                            <span class="duration"><br>
-                                <a class="new_a" href="https://itunes.apple.com/tw/app/ma-ma-bai-bao-xiang/id1016370691?mt=8" target="_blank">iOS
-                                    Store &raquo;</a><br>
-                                <a class="new_a" href=https://play.google.com/store/apps/details?id=com.mombaby.MombabyPod target="_blank">Google
-                                    Play &raquo;</a>
-                            </span>
-                        </header>
-                        <p>Taiwan million people use high mother baby BLOG cooperation<br>
-                            Books app commercial purchase system, the main team has web pages, background PHP, front desk IOS, Android,
-                            Member system, Google's built-in system (In-app billing), Vungle video
-                            Advertising SDK import, Google ad (Admob), FB SDK series member system, etc.</p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>Rd Car</h1>
-                            <span class="year">2015-5</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <a class="new_a" href=https://play.google.com/store/apps/details?id=com.weichieh.rdcar target="_blank">Google
-                                Play &raquo;</a>
-                        </header>
-                        <p>Customer Invite Case Content:<br>
-                            RD Car repair shop customization APP, mainly with GoogleMap navigation system, and GCM (chat system)
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>Floating picture</h1>
-                            <span class="year">2015-7</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <a class="new_a" href=https://play.google.com/store/apps/details?id=com.ted.nanami target="_blank">Google Play &raquo;</a>
-                        </header>
-                        <p>Customer Invite Case Content:<br>
-                            Can display your favorite pictures on the desktop, as well as the purchase program (Google)
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>GCM Chat</h1>
-                            <span class="year">No shelves</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
-                        </header>
-                        <p>GCM chat system:<br>
-                            Use Google-GCM to chat with the company system<br>
-                        </p>
-                    </div>
-                </div>
-            </li>
-            <li class="scene">
-                <div class="movie" onclick="return true">
-                    <div class="poster"></div>
-                    <div class="info">
-                        <header>
-                            <h1>Video conversation</h1>
-                            <span class="year">No shelves</span>
-                            <span class="rating">Android</span>
-                            <span class="duration"></span><br>
-                            <!--<a href=https://play.google.com/store/apps/details?id=com.ted.nanami>Google Play &raquo;</a>-->
-                        </header>
-                        <p>Mobile video system:<br>
-                            Using Google's SDK-NSD device ip display in the same domain AP above, then use the Socket to do video communication<br>
-                        </p>
-                    </div>
-                </div>
-            </li>
-
-        </ul>
+    <!--end wrapper-->
+    <div id="footer">
+        <p>&copy; 2016 <a href="#" id="goTop">MeetYouStudio.com</a>. Valid CSS &amp; XHTML &amp; Jquery &amp; javascript
+            &amp; Ajax. Template design by <a href="http://tw.yahoo.com" title="Chama Digital">Ted Hsu</a> | Meet C. <a
+                href="http://tw.yahoo.com" target="_blank">Open Web Design</a>, Thanks to <a href="http://tw.yahoo.com"
+                target="_blank">MeetYouStudio</a></p>
     </div>
-
-    <div id="conten7">
-        <h3>Autobiography</h3>
-        <h4>
-            &nbsp;&nbsp; Currently working at a Philippine gaming company, My primarily responsible for both the JAVA and JSP tasks,
-            as well as leadership experience with the mobile handset team (iOS & Android & PHP each)
-            Itself from the student period touch Android language, after graduating directly to the enterprise to work as
-            Android engineer development, then because of the mission began to contact iOS (Object-C) and PHP backend
-            , after come to the Philippines began majoring in dual-system (iOS & Android) mobile development and later because my friends need
-            to the person who can lead a team and the development of JAVA system backend, and JSP front-end development and leading
-            the mobile phone team, so I change to help him, whatever, I like research and development, gentle and good personality to get along,
-            I hope destined to work together, haha<br>
-            <img src="img/bg_2.jpg" align="right" >
-        </h4>
-    </div>
-
-    <!--<div id="quote">-->
-    <!--<p><span class="quote">&ldquo; </span>Etiam vehicula, augue eu ultricies dictum, orci nisi suscipit sem,-->
-    <!--nec sollicitudin neque est ac massa. Phasellus elementum nibh vel odio. Proin orci nulla, viverra-->
-    <!--tempus, pharetra ut, varius nec, justo. Donec euismod molestie erat. Nulla lobortis bibendum magna.-->
-    <!--<span class="quote">&ldquo;</span></p>-->
-
-    <!--<p class="testimonial">Lorem Ipsum - Client Testimonial</p>-->
-    <!--</div>-->
-    <!--end content-->
-    <div style="clear:both"></div>
-</div>
-
-<!--end wrapper-->
-<div id="footer"><p>&copy; 2016 <a href="#" id="goTop">MeetYouStudio.com</a>. Valid CSS &amp; XHTML &amp; Jquery &amp; javascript &amp; Ajax. Template design by <a
-        href="http://tw.yahoo.com" title="Chama Digital">Ted Hsu</a> | Meet C. <a
-        href="http://tw.yahoo.com" target="_blank">Open Web Design</a>, Thanks to <a
-        href="http://tw.yahoo.com" target="_blank">MeetYouStudio</a></p>
-</div>
-
-<!--<div id="chat_f1">-->
-    <!--<div id="chat_f1_main">-->
-        <!--<div id="close"></div>-->
-        <!--&lt;!&ndash;<a title="点击咨询在线客服" href="http://www.lanrentuku.com" class="a_kf"></a>&ndash;&gt;-->
-        <!--&lt;!&ndash;<a title="点击咨询售后" href="http://www.lanrentuku.com" class="a_sh"></a>&ndash;&gt;-->
-    <!--</div>-->
-    <!--<div class="chat_f1_expr">-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="GitHup" href="https://github.com/qn5566" target="_blank">GitHup</a>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="Stackoverflow" href="https://github.com/qn5566" target="_blank">Stackoverflow</a>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="list">-->
-            <!--<div class="name">-->
-                <!--<span class="arrow">&bull;</span><a title="與我聯繫">Contact me</a>-->
-
-                <!--<div class="detail">-->
-                    <!--<div class="border"></div>-->
-                    <!--<div class="mt"><strong>E-mail：</strong>-->
-                        <!--pkwelly@hotmail.com-->
-                    <!--</div>-->
-                    <!--<div class="mt"><strong>Phone：</strong>+639174349684</div>-->
-                    <!--<div class="mt mt5">-->
-                        <!--<a class="send_sms"></a>&emsp;-->
-                        <!--<a class="ovl">HOME&raquo;</a>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-    <!--<div id="chat_f1_bottom"></div>-->
-<!--</div>-->
-<!--<div id="chat_f2" style="display:none;">Contact me</div>-->
 </body>
+
 </html>
-
-<!--<div id="contacts">-->
-<!--<h2>Contact Us</h2>-->
-
-<!--<p><span class="green">Name:</span> Ted Hsu</p>-->
-
-<!--<p><span class="green">Phone:</span> 0955245522</p>-->
-
-<!--<p><span class="green">Email:</span><a href="index.html">pkwelly@hotmail.com</a></p>-->
-<!--</div>-->
-

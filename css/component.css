@@ -65,7 +65,7 @@ Transform and style the two planes
     backface-visibility: hidden;
 }
 
-.movie .poster  {
+.movie .poster {
     -webkit-transform: translateZ(130px);
     -moz-transform: translateZ(130px);
     transform: translateZ(130px);
@@ -91,7 +91,7 @@ Shadow beneath the 3D object
     height: 260px;
     position: absolute;
     bottom: 0;
-    box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
     -webkit-transform-origin: 100% 100%;
     -moz-transform-origin: 100% 100%;
     transform-origin: 100% 100%;
@@ -104,7 +104,7 @@ Shadow beneath the 3D object
 }
 
 .csstransforms3d .movie:hover::after {
-    box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+    box-shadow: 20px -5px 50px rgba(0, 0, 0, 0.3);
 }
 
 /*************************************
@@ -118,7 +118,7 @@ Movie information
     height: 195px;
     background-size: contain;
     background-repeat: no-repeat;
-    text-shadow: 0px 1px 1px rgba(0,0,0,1);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
 }
 
 .info header h1 {
@@ -128,14 +128,14 @@ Movie information
 }
 
 .info header .rating {
-    background-color:#444444;
+    background-color: #444444;
     border: 1px solid #FFF;
     padding: 0px 3px;
     color: #33FFFF;
 }
 
 .info header .year {
-    background-color:#444444;
+    background-color: #444444;
     color: #DDDDDD;
 }
 
@@ -161,21 +161,21 @@ Generate "lighting" using box shadows
 }
 
 .csstransforms3d .movie .poster {
-    box-shadow: inset 0px 0px 40px rgba(255,255,255,0);
+    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0);
 }
 
 .csstransforms3d .movie:hover .poster {
-    box-shadow: inset 300px 0px 40px rgba(255,255,255,0.8);
+    box-shadow: inset 300px 0px 40px rgba(255, 255, 255, 0.8);
 }
 
 .csstransforms3d .movie .info,
 .csstransforms3d .movie .info header {
-    box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
+    box-shadow: inset -300px 0px 40px rgba(0, 0, 0, 0.5);
 }
 
 .csstransforms3d .movie:hover .info,
 .csstransforms3d .movie:hover .info header {
-    box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
+    box-shadow: inset 0px 0px 40px rgba(0, 0, 0, 0);
 }
 
 /*************************************
@@ -183,52 +183,45 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .poster {
-    background-image: url(../img/6_poster.png);
+    background-image: url(../img/event_poster.png);
 }
 
 .scene:nth-child(2) .poster {
-    background-image: url(../img/3_poster.png);
+    background-image: url(../img/mask_poster.png);
 }
 
 .scene:nth-child(3) .poster {
-    background-image: url(../img/1_poster.png);
+    background-image: url(../img/6_poster.png);
 }
 
 .scene:nth-child(4) .poster {
-    background-image: url(../img/4_poster.png);
+    background-image: url(../img/3_poster.png);
 }
 
 .scene:nth-child(5) .poster {
-    background-image: url(../img/5_poster.png);
-}
-
-.scene:nth-child(6) .movie .poster {
-    background-image: url(../img/2_poster.jpg);
+    background-image: url(../img/1_poster.png);
 }
 
 .scene:nth-child(1) .info header {
-    background-image: url(../img/6_apk.png);
+    background-image: url(../img/event_mix.png);
 }
 
 .scene:nth-child(2) .info header {
-    background-image: url(../img/3_apk.png);
+    background-image: url(../img/mask_apk.png);
 }
 
 .scene:nth-child(3) .info header {
-    background-image: url(../img/1_apk.png);
+    background-image: url(../img/6_apk.png);
 }
 
 .scene:nth-child(4) .info header {
-    background-image: url(../img/4_apk.png);
+    background-image: url(../img/3_apk.png);
 }
 
 .scene:nth-child(5) .info header {
-    background-image: url(../img/5_apk.png);
+    background-image: url(../img/1_apk.png);
 }
 
-.scene:nth-child(6) .info header {
-    background-image: url(../img/2_apk.png);
-}
 /*************************************
 Fallback
 **************************************/
@@ -240,7 +233,7 @@ Fallback
 /*************************************
 Media Queries
 **************************************/
-@media screen and (max-width: 60.75em){
+@media screen and (max-width: 60.75em) {
     .scene {
         float: none;
         margin: 30px auto 60px;
