@@ -29,7 +29,7 @@ $(function () {
     });
     $("#Skills").click(function () {
 
-        $("html,body").animate({scrollTop: 1920}, 1000);
+        $("html,body").animate({scrollTop: 2520}, 1000);
 
         return false;
 
@@ -45,7 +45,7 @@ $(function () {
     });
     $("#Project").click(function () {
 
-        $("html,body").animate({scrollTop: 2180}, 1000);
+        $("html,body").animate({scrollTop: 2880}, 1000);
 
         return false;
 
@@ -53,7 +53,7 @@ $(function () {
     });
     $("#Autobiography").click(function () {
 
-        $("html,body").animate({scrollTop: 2880}, 1000);
+        $("html,body").animate({scrollTop: 3580}, 1000);
 
         return false;
 
