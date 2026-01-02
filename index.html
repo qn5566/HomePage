@@ -280,7 +280,21 @@
 					<p>Display some of the larger cases we have taken over the years.</p>
 					<div class="features">
 						<article>
-							<a href="#" onclick="redirectToStore()" target="_blank" class="image"><img
+							<a href="#" onclick="redirectToStoreLiwen()" target="_blank" class="image"><img
+									src="img/my_project_16.png" alt="" /></a>
+							<div class="inner">
+								<h4>Liwen Cultural Group by Flutter</h4>
+								<h4>(Over 100,000 downloads)</h4>
+								<p>
+									Flutter app built with Riverpod and Freezed.
+									Book ordering and purchasing services for students.
+									Integrated Firebase for login, push notifications, and image storage.
+								</p>
+								<a href="#" onclick="redirectToStoreLiwen()" target="_blank">Link</a>
+							</div>
+						</article>
+						<article>
+							<a href="#" onclick="redirectToStorePet()" target="_blank" class="image"><img
 									src="img/my_project_15.png" alt="" /></a>
 							<div class="inner">
 								<h4>Star Maomao by Flutter</h4>
@@ -393,13 +407,25 @@
 	<script src="assets/js/main.js"></script>
 
 	<script>
-		function redirectToStore() {
+		// 星際毛毛
+		function redirectToStorePet() {
 			const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
 			if (/android/i.test(userAgent)) {
 				window.open("https://play.google.com/store/apps/details?id=com.astroflood.prod", "_blank");
 			} else {
 				window.open("https://apps.apple.com/tw/app/id6740760982", "_blank");
+			}
+		}
+
+		// 麗文出版社
+		function redirectToStoreLiwen() {
+			const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+			if (/android/i.test(userAgent)) {
+				window.open("https://play.google.com/store/apps/details?id=com.liwen.app", "_blank");
+			} else {
+				window.open("https://apps.apple.com/tw/app/id6612026301", "_blank");
 			}
 		}
 	</script>
