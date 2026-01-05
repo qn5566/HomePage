@@ -280,6 +280,24 @@
 					<p>Display some of the larger cases we have taken over the years.</p>
 					<div class="features">
 						<article>
+							<a href="#" onclick="redirectToStoreIqun()" target="_blank" class="image"><img
+									src="img/my_project_17.webp" alt="" /></a>
+							<div class="inner">
+								<h4>Kaigai Electronics LTD. by Flutter</h4>
+								<h4>Released in Sep 2025.</h4>
+								<p>
+									Implemented a View–BLoC–Repository architecture:
+									the View communicates with the BLoC (state machine) for UI state management,
+									and the Repository leverages Platform Channels to transfer data between native
+									layers and the BLoC.
+								</p>
+								<a href="#" onclick="redirectToStoreIqunWeb()" target="_blank">
+									Featured on Zeczec funded.</a>
+								<br />
+								<a href="#" onclick="redirectToStoreIqun()" target="_blank">Link</a>
+							</div>
+						</article>
+						<article>
 							<a href="#" onclick="redirectToStoreLiwen()" target="_blank" class="image"><img
 									src="img/my_project_16.png" alt="" /></a>
 							<div class="inner">
@@ -427,6 +445,22 @@
 			} else {
 				window.open("https://apps.apple.com/tw/app/id6612026301", "_blank");
 			}
+		}
+
+		// iQun
+		function redirectToStoreIqun() {
+			const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+			if (/android/i.test(userAgent)) {
+				window.open("https://play.google.com/store/apps/details?id=com.kaigai.iqun", "_blank");
+			} else {
+				window.open("https://apps.apple.com/tw/app/id6479200164", "_blank");
+			}
+		}
+
+		// iQun網站
+		function redirectToStoreIqunWeb() {
+			window.open("https://www.zeczec.com/projects/iqun-led-x", "_blank");
 		}
 	</script>
 </body>
