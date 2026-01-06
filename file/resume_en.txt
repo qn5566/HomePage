@@ -1,0 +1,119 @@
+Resume
+
+Name: TED HSU
+Year of Birth: 1987
+Nationality: Taiwan
+Mobile: +886-968-623-112
+E-mail: sohotguys@gmail.com
+
+Website Portfolio: GitHub
+─────────────────────────────────────────────────────────────────
+Objective
+Flutter & Android Developer
+Education
+National Taiwan Normal University
+M.S. in Marine Environmental Sciences
+Skills
+Kotlin / Flutter
+Working Experience
+I. 2024/03 – Present
+Company: 智鈦星平台服務 (Futures Trading)
+Title: Android Developer
+Responsibilities:
+    • Developed Android applications using MVI architecture, Hilt for dependency injection, Retrofit for network communication, and Jetpack Compose for modern UI in Kotlin.
+    • Built and packaged AAR-based masked apps for deployment in the Chinese market.
+    • Managed and developed multiple projects simultaneously.
+    • Implemented CI/CD pipelines for automated app packaging and deployment.
+    • Utilized the n8n automation platform to streamline the development workflow.
+    • Integrated AI-driven chat systems into applications.
+II. 2022/08 – 2024/01
+Company: 宏博網路科技有限公司
+Title: Flutter & Android Developer
+Responsibilities:
+    • [Flutter]
+    • Implemented GetIt design pattern for dependency injection.
+    • Used Channel, Broadcast, and async for asynchronous operations.
+    • Developed M3u8 playback and video download features.
+    • Implemented SQL persistence in Flutter.
+    • Integrated third-party frameworks such as Dio.
+    • Implemented App Links.
+    • [Android]
+    • Applied MVVM design pattern.
+    • Implemented Kotlin SQL persistence.
+    • Designed modular architecture using Coroutines.
+    • Developed M3u8 playback and video download features.
+    • Designed Kotlin-based UI components.
+    • Integrated third-party libraries such as Glide.
+    • Implemented App Links.
+III. 2021/08 – 2022/07
+Company: Google (1-Year Contract)
+Title: Android Developer (Android, Python)
+Responsibilities:
+    • Designed test system firmware interfaces for wearable devices (Android Watch).
+    • Designed test system firmware interfaces for Pixel phones (Pixel 6, 6 Pro, 7, etc.).
+    • Developed data APIs using Python.
+    • Applied design patterns to solve specific project issues.
+    • Used Fig (similar to Git) for version control.
+    • Maintained clean, simple, and efficient code.
+    • Performed code reviews to ensure code quality and safety.
+    • Wrote unit tests to ensure code reliability.
+IV. 2018/03 – 2021/07
+Company: Fortunate International Information Co., Ltd.
+Title: Full Stack Developer (Android, iOS, Flutter, PHP, MySQL)
+Responsibilities:
+    • 1. Social Platform (GoMySki) – Flutter:
+    • - Designed Android and iOS applications.
+    • - Used Git for version control.
+    • - Developed Web-APP using Ruby on Rails.
+    • - Implemented push notification services using Firebase.
+    • - Published apps on Google Play and Apple App Store.
+    • 2. Android/iOS Gaming Apps:
+    • - Developed native apps using Kotlin and Swift.
+    • - Implemented sync mechanisms for withdrawals, deposits, and betting.
+    • - Used AsyncTask for processes such as APK updates.
+    • - Integrated APIs via JSON.
+    • - Implemented push notifications using Firebase.
+    • 3. PHP Backend:
+    • - Developed login mechanisms using sessions and cookies.
+    • - Integrated WeChat SDK for login functionality.
+    • - Implemented backend sync and double verification for transactions.
+    • - Developed game rebate systems.
+    • - Automated tasks using crontab CLI scripts.
+    • - Designed JSON APIs.
+    • - Performed web scraping using PhantomJS.
+    • 4. MySQL Database:
+    • - Used MySQL 8.0.
+    • - Designed robust database schemas.
+V. 2016/10 – 2018/03
+Company: Blue Star Co., Ltd.
+Title: Full Stack Developer (Android, iOS, Java, MySQL)
+Responsibilities:
+    • 1. Video Game and Slot Machine Development:
+    • - Built SSM architecture (Spring + SpringMVC + MyBatis).
+    • - Implemented sync mechanisms for betting, withdrawals, etc.
+    • - Used IoC, DAO, and POJO to build Java EE applications.
+    • - Developed live broadcast features.
+    • - Managed version control with SVN.
+    • 2. Android/iOS Gaming Apps:
+    • - Developed native code (Android & Objective-C).
+    • - Integrated APIs and designed UI.
+    • - Used AsyncTask for APK updates.
+    • - Implemented Firebase push notifications.
+    • - Managed version control with SVN.
+VI. 2013/03 – 2016/10
+Company: HERAN Co., Ltd.
+Title: Android Developer
+Responsibilities:
+    • Android TV System Design:
+    • - Implemented voice control via Android phone.
+    • - Developed Bluetooth file transfer functionality.
+    • - Built Socket communication between phone and TV.
+    • - Integrated IoT features with home appliances.
+    • - Managed version control with SVN.
+    • - Integrated APIs via JSON.
+About Me
+Hello! My name is Ted Hsu, and I’m a software developer from Taiwan with over 11 years of Android development experience. In addition, I bring 4 years of iOS development, 1 year of Flutter development, and 2 years each in PHP and Java.
+Throughout my career, I’ve worked across a wide range of industries and companies—including projects with Google on the Pixel Watch and Pixel Phone. I’ve also contributed to the development of adult social platforms, mobile lottery and gaming apps, slot machine/eSports platforms, and IoT solutions.
+Beyond corporate projects, I’ve partnered with clients to build systems involving facial recognition, digital learning platforms like “Pandora Zone,” and interactive advertising machines for mobile, tablet, and TV—deployed in major retail chains such as Watsons, Cosmed, and SASA across Taiwan and Shanghai.
+In addition to my technical skills, I place high value on teamwork and communication. I believe that effective collaboration is key to building great products and solving complex problems. I’m excited about the opportunity to bring my experience, adaptability, and enthusiasm to your team.
+Thank you for taking the time to read my introduction. I look forward to the opportunity to connect and contribute!
